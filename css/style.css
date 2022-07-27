@@ -1,0 +1,83 @@
+:root {
+  --primary-blue-1: #2491eb;
+  --primary-blue-2: #15357a;
+  --primary-blue-3: #02466b;
+  --primary-white-1: #ffffff;
+  --primary-white-2: #f5f5f6;
+  --primary-white-3: #fefefe;
+  --primary-white-4: #fafafa;
+  --primary-black-1: #101929;
+  --primary-black-2: #0c1017;
+  --primary-black-3: #151017;
+  --primary-grey-1: #5a5c61;
+  --primary-grey-2: #55585d;
+  --primary-grey-3: #848587;
+  --primary-grey-4: #989898;
+  --primary-grey-5: #bbbcbf;
+  --primary-grey-6: #dce0e8;
+  --primary-grey-7: #a1a1a1;
+  --primary-grey-8: #00000033;
+  --primary-grey-9: #0000001a;
+  --primary-grey-10: #ececec;
+  --font-size-19: 19px;
+  --font-size-80: 80px;
+  --font-size-60: 60px;
+  --font-size-16: 16px; }
+
+.introduction .image-holder {
+  background: transparent url("../img/group.png") 0% 0% no-repeat padding-box;
+  width: 100%;
+  padding-bottom: 18.3%;
+  background-size: 100%; }
+  .introduction .image-holder .image-holder-container {
+    padding-left: 120px; }
+    .introduction .image-holder .image-holder-container .logo {
+      padding-top: 70px; }
+      .introduction .image-holder .image-holder-container .logo img {
+        width: 261px;
+        height: 57px; }
+    .introduction .image-holder .image-holder-container .title {
+      padding-top: 177px;
+      font-size: var(--font-size-60);
+      color: var(--primary-white-1);
+      letter-spacing: 0px; }
+    .introduction .image-holder .image-holder-container .sub-title {
+      font-size: var(--font-size-80);
+      color: var(--primary-white-1);
+      font-style: italic;
+      letter-spacing: 0px;
+      font-weight: 600px; }
+    .introduction .image-holder .image-holder-container .description {
+      margin-top: 20px;
+      width: 510px;
+      height: 201px;
+      font-size: var(--font-size-19);
+      color: var(--primary-white-1); }
+    .introduction .image-holder .image-holder-container .button {
+      margin-top: 67px; }
+
+.available-projects {
+  /* UI Properties */
+  background: #f5f5f6 0% 0% no-repeat padding-box;
+  opacity: 1; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+.button {
+  width: 238px;
+  height: 70px;
+  border: 2px solid var(--primary-white-1);
+  border-radius: 50px;
+  color: var(--primary-white-1);
+  font-size: var(--font-size-16);
+  display: flex;
+  align-items: center; }
+  .button .text {
+    margin: 0 auto; }
