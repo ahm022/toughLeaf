@@ -18,43 +18,63 @@
   --primary-grey-7: #a1a1a1;
   --primary-grey-8: #00000033;
   --primary-grey-9: #0000001a;
-  --primary-grey-10: #ececec;
-  --font-size-19: 19px;
-  --font-size-80: 80px;
-  --font-size-60: 60px;
-  --font-size-16: 16px; }
+  --primary-grey-10: #ececec; }
 
 .introduction .image-holder {
   background: transparent url("../img/group.png") 0% 0% no-repeat padding-box;
   width: 100%;
-  padding-bottom: 18.3%;
   background-size: 100%; }
   .introduction .image-holder .image-holder-container {
-    padding-left: 120px; }
-    .introduction .image-holder .image-holder-container .logo {
-      padding-top: 70px; }
-      .introduction .image-holder .image-holder-container .logo img {
-        width: 261px;
-        height: 57px; }
+    padding-left: 6%;
+    padding-top: 3.6%;
+    height: 85%; }
+    .introduction .image-holder .image-holder-container .logo img {
+      width: 14.5%;
+      height: 5%; }
     .introduction .image-holder .image-holder-container .title {
-      padding-top: 177px;
-      font-size: var(--font-size-60);
+      padding-top: 8%;
+      font-size: 3vw;
       color: var(--primary-white-1);
       letter-spacing: 0px; }
     .introduction .image-holder .image-holder-container .sub-title {
-      font-size: var(--font-size-80);
+      font-size: 4vw;
       color: var(--primary-white-1);
       font-style: italic;
       letter-spacing: 0px;
       font-weight: 600px; }
     .introduction .image-holder .image-holder-container .description {
-      margin-top: 20px;
-      width: 510px;
-      height: 201px;
-      font-size: var(--font-size-19);
+      margin-top: 1.2%;
+      width: 28.3%;
+      height: 18.5%;
+      font-size: 0.8vw;
       color: var(--primary-white-1); }
     .introduction .image-holder .image-holder-container .button {
-      margin-top: 67px; }
+      margin: 3.5% 0%; }
+  .introduction .image-holder .bottom {
+    width: 100%;
+    height: 50px;
+    background-color: var(--primary-blue-1);
+    display: flex;
+    align-items: center; }
+    .introduction .image-holder .bottom .control {
+      width: 32%;
+      height: 100%;
+      display: inline-block;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      text-align: center; }
+      .introduction .image-holder .bottom .control div {
+        font-size: 0.9vw;
+        color: var(--primary-white-1);
+        text-transform: uppercase;
+        margin: 0 auto; }
+  .introduction .image-holder #default-state {
+    display: block; }
+  .introduction .image-holder #xbe-db,
+  .introduction .image-holder #available-projects,
+  .introduction .image-holder #post-project {
+    display: none; }
 
 .available-projects {
   /* UI Properties */
@@ -71,13 +91,19 @@ body {
   margin: 0 auto; }
 
 .button {
-  width: 238px;
-  height: 70px;
-  border: 2px solid var(--primary-white-1);
+  width: 13.3%;
+  height: 6%;
+  border: 0.01em solid var(--primary-white-1);
   border-radius: 50px;
   color: var(--primary-white-1);
-  font-size: var(--font-size-16);
+  font-size: 0.8vw;
   display: flex;
   align-items: center; }
   .button .text {
-    margin: 0 auto; }
+    margin: 0 auto;
+    cursor: pointer; }
+
+.button:hover {
+  color: var(--primary-white-1);
+  background-color: var(--primary-blue-1);
+  border: none; }
