@@ -12,7 +12,7 @@ xdbControl?.addEventListener('mouseover', function handleMouseOver() {
     defaultState.style.display = 'none';
     availableProjects.style.display = 'none';
     postProject.style.display = 'none';
-    xbeDb.style.display = 'block';
+    xbeDb.style.display = 'flex';
 });
 
 xdbControl?.addEventListener('mouseout', function handleMouseOver() {
@@ -24,7 +24,7 @@ xdbControl?.addEventListener('mouseout', function handleMouseOver() {
 
 propjectsControl?.addEventListener('mouseover', function handleMouseOver() {
     defaultState.style.display = 'none';
-    availableProjects.style.display = 'block';
+    availableProjects.style.display = 'flex';
     postProject.style.display = 'none';
     xbeDb.style.display = 'none';
 });
@@ -39,7 +39,7 @@ propjectsControl?.addEventListener('mouseout', function handleMouseOver() {
 postControl?.addEventListener('mouseover', function handleMouseOver() {
     defaultState.style.display = 'none';
     availableProjects.style.display = 'none';
-    postProject.style.display = 'block';
+    postProject.style.display = 'flex';
     xbeDb.style.display = 'none';
 });
 
