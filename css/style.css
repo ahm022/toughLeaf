@@ -32,12 +32,48 @@
     width: 100%;
     height: 100%; }
     .section-one .image-holder .image-holder-container .details {
-      padding-left: 6%;
-      padding-top: 3.6%;
+      padding: 3.6% 6% 0 6%;
       height: 85%; }
-      .section-one .image-holder .image-holder-container .details .logo img {
-        width: 14.5%;
-        height: 5%; }
+      .section-one .image-holder .image-holder-container .details .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .section-one .image-holder .image-holder-container .details .header .logo {
+          width: 14.5%; }
+        .section-one .image-holder .image-holder-container .details .header .menu {
+          display: flex;
+          width: 85%;
+          justify-content: end;
+          align-items: center; }
+          .section-one .image-holder .image-holder-container .details .header .menu .item {
+            font-size: 1vw;
+            font-weight: 500;
+            color: var(--primary-white-3);
+            padding: 0 3%;
+            cursor: pointer; }
+            .section-one .image-holder .image-holder-container .details .header .menu .item.with-border {
+              border-right: 2px solid var(--primary-grey-4);
+              margin-right: 2%; }
+          .section-one .image-holder .image-holder-container .details .header .menu .book-demo {
+            font-size: 0.9vw;
+            font-weight: 500;
+            color: var(--primary-white-3);
+            padding: 0.6% 2%;
+            cursor: pointer;
+            margin-right: 2%; }
+          .section-one .image-holder .image-holder-container .details .header .menu .book-demo:hover {
+            padding: 0.6% 2%;
+            background-color: var(--primary-grey-2);
+            color: var(--primary-white-1);
+            border-radius: 20px; }
+          .section-one .image-holder .image-holder-container .details .header .menu .login {
+            cursor: pointer;
+            font-size: 0.9vw;
+            padding: 0.6% 2%;
+            background-color: var(--primary-blue-1);
+            color: var(--primary-white-1);
+            border-radius: 20px;
+            font-weight: 600; }
       .section-one .image-holder .image-holder-container .details .title {
         padding-top: 8%;
         font-size: 3vw;
@@ -74,14 +110,15 @@
     .section-one .image-holder .image-holder-container .bottom {
       width: 100%;
       height: 15%;
-      opacity: 0.3;
-      background-color: var(--primary-blue-1);
+      opacity: 0.15;
+      background: var(--primary-blue-1) 0% 0% no-repeat padding-box;
       display: flex;
       align-items: center; }
+      .section-one .image-holder .image-holder-container .bottom:hover {
+        opacity: 0.5; }
       .section-one .image-holder .image-holder-container .bottom .control {
         width: 32%;
         height: 100%;
-        display: inline-block;
         display: flex;
         align-items: center;
         cursor: pointer;
@@ -145,7 +182,7 @@ body {
   .section-three .legacy-details {
     position: absolute;
     top: 20%;
-    left: 7.5%; }
+    left: 6%; }
     .section-three .legacy-details .title {
       font-size: 3vw;
       color: var(--primary-blue-3);
