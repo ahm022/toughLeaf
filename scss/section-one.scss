@@ -1,8 +1,6 @@
-.introduction {
+.section-one {
     .image-holder {
-        // background: transparent url("../img/group.png") 0% 0% no-repeat padding-box;
         width: 100%;
-        // padding-bottom: 18.3%;
         background-size: 100%;
         position: relative;
         img {
@@ -39,12 +37,28 @@
                 .description {
                     margin-top: 1.2%;
                     width: 28.3%;
-                    // height: 18.5%;
                     font-size: 0.8vw;
                     color: var(--primary-white-1);
                 }
                 .button {
                     margin: 3.5% 0%;
+                    width: fit-content;
+                    padding: 1%;
+                    border: 0.01em solid var(--primary-white-1);
+                    border-radius: 50px;
+                    color: var(--primary-white-1);
+                    font-size: 0.8vw;
+                    display: flex;
+                    align-items: center;
+                    .text {
+                        margin: 0 auto;
+                        cursor: pointer;
+                    }
+                }
+                .button:hover {
+                    color: var(--primary-white-1);
+                    background-color: var(--primary-blue-1);
+                    border: none;
                 }
             }
             .bottom {
@@ -83,10 +97,10 @@
             align-items: center;
             justify-content: space-between;
             height: 86%;
-            .hover-details{
+            .hover-details {
                 width: 60%;
             }
-            img{
+            img {
                 width: 27.5%;
                 height: 48%;
                 margin-right: 2px;
@@ -94,17 +108,3 @@
         }
     }
 }
-
-// @media only screen and (max-width: 1600px) {
-//     .image-holder-container {
-//         .title {
-//             font-size: 3vw !important;
-//         }
-//         .sub-title {
-//             font-size: 4vw !important;
-//         }
-//         .description {
-//             font-size: 12px !important;
-//         }
-//     }
-// }

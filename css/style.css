@@ -20,50 +20,65 @@
   --primary-grey-9: #0000001a;
   --primary-grey-10: #ececec; }
 
-.introduction .image-holder {
+.section-one .image-holder {
   width: 100%;
   background-size: 100%;
   position: relative; }
-  .introduction .image-holder img {
+  .section-one .image-holder img {
     width: 100%; }
-  .introduction .image-holder .image-holder-container {
+  .section-one .image-holder .image-holder-container {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%; }
-    .introduction .image-holder .image-holder-container .details {
+    .section-one .image-holder .image-holder-container .details {
       padding-left: 6%;
       padding-top: 3.6%;
       height: 85%; }
-      .introduction .image-holder .image-holder-container .details .logo img {
+      .section-one .image-holder .image-holder-container .details .logo img {
         width: 14.5%;
         height: 5%; }
-      .introduction .image-holder .image-holder-container .details .title {
+      .section-one .image-holder .image-holder-container .details .title {
         padding-top: 8%;
         font-size: 3vw;
         color: var(--primary-white-1);
         letter-spacing: 0px; }
-      .introduction .image-holder .image-holder-container .details .sub-title {
+      .section-one .image-holder .image-holder-container .details .sub-title {
         font-size: 4vw;
         color: var(--primary-white-1);
         font-style: italic;
         letter-spacing: 0px;
         font-weight: 600; }
-      .introduction .image-holder .image-holder-container .details .description {
+      .section-one .image-holder .image-holder-container .details .description {
         margin-top: 1.2%;
         width: 28.3%;
         font-size: 0.8vw;
         color: var(--primary-white-1); }
-      .introduction .image-holder .image-holder-container .details .button {
-        margin: 3.5% 0%; }
-    .introduction .image-holder .image-holder-container .bottom {
+      .section-one .image-holder .image-holder-container .details .button {
+        margin: 3.5% 0%;
+        width: fit-content;
+        padding: 1%;
+        border: 0.01em solid var(--primary-white-1);
+        border-radius: 50px;
+        color: var(--primary-white-1);
+        font-size: 0.8vw;
+        display: flex;
+        align-items: center; }
+        .section-one .image-holder .image-holder-container .details .button .text {
+          margin: 0 auto;
+          cursor: pointer; }
+      .section-one .image-holder .image-holder-container .details .button:hover {
+        color: var(--primary-white-1);
+        background-color: var(--primary-blue-1);
+        border: none; }
+    .section-one .image-holder .image-holder-container .bottom {
       width: 100%;
       height: 15%;
       opacity: 0.3;
       background-color: var(--primary-blue-1);
       display: flex;
       align-items: center; }
-      .introduction .image-holder .image-holder-container .bottom .control {
+      .section-one .image-holder .image-holder-container .bottom .control {
         width: 32%;
         height: 100%;
         display: inline-block;
@@ -71,36 +86,31 @@
         align-items: center;
         cursor: pointer;
         text-align: center; }
-        .introduction .image-holder .image-holder-container .bottom .control div {
+        .section-one .image-holder .image-holder-container .bottom .control div {
           font-size: 1.2vw;
           color: var(--primary-white-1);
           text-transform: uppercase;
           margin: 0 auto; }
-  .introduction .image-holder #default-state {
+  .section-one .image-holder #default-state {
     display: block;
     height: 86%; }
-  .introduction .image-holder #xbe-db,
-  .introduction .image-holder #available-projects,
-  .introduction .image-holder #post-project {
+  .section-one .image-holder #xbe-db,
+  .section-one .image-holder #available-projects,
+  .section-one .image-holder #post-project {
     display: none;
     align-items: center;
     justify-content: space-between;
     height: 86%; }
-    .introduction .image-holder #xbe-db .hover-details,
-    .introduction .image-holder #available-projects .hover-details,
-    .introduction .image-holder #post-project .hover-details {
+    .section-one .image-holder #xbe-db .hover-details,
+    .section-one .image-holder #available-projects .hover-details,
+    .section-one .image-holder #post-project .hover-details {
       width: 60%; }
-    .introduction .image-holder #xbe-db img,
-    .introduction .image-holder #available-projects img,
-    .introduction .image-holder #post-project img {
+    .section-one .image-holder #xbe-db img,
+    .section-one .image-holder #available-projects img,
+    .section-one .image-holder #post-project img {
       width: 27.5%;
       height: 48%;
       margin-right: 2px; }
-
-.available-projects {
-  /* UI Properties */
-  background: #f5f5f6 0% 0% no-repeat padding-box;
-  opacity: 1; }
 
 * {
   margin: 0;
@@ -111,20 +121,52 @@ body {
   max-width: 1920px;
   margin: 0 auto; }
 
-.button {
-  width: fit-content;
-  padding: 1%;
-  border: 0.01em solid var(--primary-white-1);
-  border-radius: 50px;
-  color: var(--primary-white-1);
-  font-size: 0.8vw;
+.section-three {
   display: flex;
-  align-items: center; }
-  .button .text {
-    margin: 0 auto;
-    cursor: pointer; }
-
-.button:hover {
-  color: var(--primary-white-1);
-  background-color: var(--primary-blue-1);
-  border: none; }
+  align-items: center;
+  justify-content: space-between;
+  position: relative; }
+  .section-three .image-wrapper {
+    padding: 6% 5% 6% 0%;
+    width: 34.7%;
+    height: 63.5%; }
+    .section-three .image-wrapper .img-holder {
+      box-shadow: 0px 3px 10px #0b32511a;
+      opacity: 1; }
+      .section-three .image-wrapper .img-holder img {
+        width: 100%;
+        height: 100%; }
+  .section-three .legacy-white-bg-holder {
+    width: 40.6%;
+    height: 83.4%; }
+    .section-three .legacy-white-bg-holder img {
+      width: 100%;
+      height: 100%; }
+  .section-three .legacy-details {
+    position: absolute;
+    top: 20%;
+    left: 7.5%; }
+    .section-three .legacy-details .title {
+      font-size: 3vw;
+      color: var(--primary-blue-3);
+      margin-bottom: 1.8%;
+      font-weight: 500;
+      width: 38%; }
+    .section-three .legacy-details .description {
+      font-size: 1.2vw;
+      width: 50%;
+      color: var(--primary-grey-2);
+      margin-bottom: 6%; }
+    .section-three .legacy-details .about-us {
+      margin: 3.5% 0%;
+      color: var(--primary-blue-1);
+      border: 0.01em solid var(--primary-blue-1);
+      width: 10%;
+      font-size: 1vw;
+      text-align: center;
+      padding: 1%;
+      border-radius: 50px; }
+    .section-three .legacy-details .about-us:hover {
+      color: var(--primary-white-1);
+      background-color: var(--primary-blue-1);
+      border: none; }
