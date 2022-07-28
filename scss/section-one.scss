@@ -133,6 +133,7 @@
         #default-state {
             display: block;
             height: 86%;
+            padding-top: 2.4%;
         }
         #xbe-db,
         #available-projects,
@@ -143,6 +144,8 @@
             height: 86%;
             .hover-details {
                 width: 60%;
+                height: 100%;
+                padding-top: 6%;
             }
             img {
                 width: 27.5%;

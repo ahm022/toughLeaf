@@ -134,7 +134,8 @@
           margin: 0 auto; }
   .section-one .image-holder #default-state {
     display: block;
-    height: 86%; }
+    height: 86%;
+    padding-top: 2.4%; }
   .section-one .image-holder #xbe-db,
   .section-one .image-holder #available-projects,
   .section-one .image-holder #post-project {
@@ -145,7 +146,9 @@
     .section-one .image-holder #xbe-db .hover-details,
     .section-one .image-holder #available-projects .hover-details,
     .section-one .image-holder #post-project .hover-details {
-      width: 60%; }
+      width: 60%;
+      height: 100%;
+      padding-top: 6%; }
     .section-one .image-holder #xbe-db img,
     .section-one .image-holder #available-projects img,
     .section-one .image-holder #post-project img {
@@ -413,7 +416,7 @@ body {
   position: relative; }
   .section-three .image-wrapper {
     padding: 6% 5% 6% 0%;
-    width: 34.7%;
+    width: 39%;
     height: 63.5%; }
     .section-three .image-wrapper .img-holder {
       box-shadow: 0px 3px 10px #0b32511a;
@@ -429,21 +432,33 @@ body {
       height: 100%; }
   .section-three .legacy-details {
     position: absolute;
-    top: 20%;
+    top: 22%;
     left: 6%; }
+    .section-three .legacy-details .date {
+      display: flex;
+      align-items: center;
+      margin: 2% 0; }
+      .section-three .legacy-details .date .dash {
+        width: 3%;
+        height: 1px;
+        background-color: var(--primary-blue-1); }
+      .section-three .legacy-details .date span {
+        margin-left: 5px;
+        color: var(--primary-grey-1);
+        font-size: 1vw; }
     .section-three .legacy-details .title {
-      font-size: 3vw;
+      font-size: 2.5vw;
       color: var(--primary-blue-3);
-      margin-bottom: 1.8%;
-      font-weight: 500;
+      margin-bottom: 1%;
+      font-weight: 600;
       width: 38%; }
     .section-three .legacy-details .description {
       font-size: 1.2vw;
       width: 50%;
       color: var(--primary-grey-2);
-      margin-bottom: 6%; }
+      font-weight: 300; }
     .section-three .legacy-details .about-us {
-      margin: 3.5% 0%;
+      margin: 1.5% 0%;
       color: var(--primary-blue-1);
       border: 0.01em solid var(--primary-blue-1);
       width: 10%;
@@ -574,7 +589,8 @@ body {
       padding: 1.458vw;
       background-color: var(--primary-white-1);
       height: fit-content;
-      min-width: 27.76vw; }
+      min-width: 27.76vw;
+      max-height: 656px; }
       .section-two .cards .card-container .title {
         text-align: center;
         color: var(--primary-black-3);
@@ -640,16 +656,6 @@ body {
             margin-top: 1.042vw;
             font-size: 0.815vw;
             cursor: pointer; }
-          .section-two .cards .card-container .card-item-container .card-item:hover {
-            background-color: var(--primary-blue-1); }
-            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-title {
-              color: var(--primary-white-1); }
-            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-subtitle {
-              color: var(--primary-white-1); }
-            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-image {
-              display: none; }
-            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-button {
-              display: block; }
         .section-two .cards .card-container .card-item-container.two-card-item .card-item {
           width: 100%; }
       .section-two .cards .card-container .card-button {
