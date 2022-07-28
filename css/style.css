@@ -165,8 +165,78 @@ body {
       font-size: 1vw;
       text-align: center;
       padding: 1%;
-      border-radius: 50px; }
+      border-radius: 50px;
+      cursor: pointer; }
     .section-three .legacy-details .about-us:hover {
       color: var(--primary-white-1);
       background-color: var(--primary-blue-1);
       border: none; }
+
+.section-four {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .section-four img {
+    height: 100%;
+    width: 100%; }
+  .section-four .state-holder {
+    height: 67%;
+    position: relative; }
+    .section-four .state-holder .default-state-img-holder {
+      display: block; }
+    .section-four .state-holder .states-wrapper {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background-color: var(--primary-black-3);
+      opacity: 60%;
+      display: flex;
+      align-items: center; }
+      .section-four .state-holder .states-wrapper #hiring,
+      .section-four .state-holder .states-wrapper #xbe {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--primary-white-1); }
+        .section-four .state-holder .states-wrapper #hiring .title,
+        .section-four .state-holder .states-wrapper #xbe .title {
+          display: block;
+          font-size: 2vw; }
+        .section-four .state-holder .states-wrapper #hiring .details,
+        .section-four .state-holder .states-wrapper #xbe .details {
+          display: none; }
+        .section-four .state-holder .states-wrapper #hiring:hover .title,
+        .section-four .state-holder .states-wrapper #xbe:hover .title {
+          display: none; }
+        .section-four .state-holder .states-wrapper #hiring:hover .details,
+        .section-four .state-holder .states-wrapper #xbe:hover .details {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+      .section-four .state-holder .states-wrapper .details-header {
+        font-size: 2vw;
+        text-transform: uppercase;
+        margin-bottom: 20%;
+        margin-top: 10%; }
+      .section-four .state-holder .states-wrapper .details-description {
+        font-size: 1vw;
+        margin-bottom: 30%;
+        text-align: center;
+        line-height: 2vw; }
+      .section-four .state-holder .states-wrapper .action {
+        color: var(--primary-blue-1);
+        border: 0.01em solid var(--primary-blue-1);
+        width: 50%;
+        font-size: 1vw;
+        text-align: center;
+        padding: 3%;
+        border-radius: 50px;
+        cursor: pointer; }
+      .section-four .state-holder .states-wrapper .action:hover {
+        color: var(--primary-white-1);
+        background-color: var(--primary-blue-1);
+        border: none; }
