@@ -1,0 +1,81 @@
+.section-four {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    .state-holder {
+        height: 67%;
+        position: relative;
+        .default-state-img-holder {
+            display: block;
+        }
+        .states-wrapper {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: var(--primary-black-3);
+            opacity: 60%;
+            display: flex;
+            align-items: center;
+            #hiring,
+            #xbe {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--primary-white-1);
+                .title {
+                    display: block;
+                    font-size: 2vw;
+                }
+                .details {
+                    display: none;
+                }
+                &:hover {
+                    .title {
+                        display: none;
+                    }
+                    .details {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+            .details-header {
+                font-size: 2vw;
+                text-transform: uppercase;
+                margin-bottom: 20%;
+                margin-top: 10%;
+            }
+            .details-description {
+                font-size: 1vw;
+                margin-bottom: 30%;
+                text-align: center;
+                line-height: 2vw;
+            }
+            .action {
+                color: var(--primary-blue-1);
+                border: 0.01em solid var(--primary-blue-1);
+                width: 50%;
+                font-size: 1vw;
+                text-align: center;
+                padding: 3%;
+                border-radius: 50px;
+                cursor: pointer;
+            }
+            .action:hover {
+                color: var(--primary-white-1);
+                background-color: var(--primary-blue-1);
+                border: none;
+            }
+        }
+    }
+}

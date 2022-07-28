@@ -42,11 +42,13 @@
         padding: 40px 60px 40px 60px;
         width: 100%;
         .sign-in-body {
+          margin-top: 42px;
           .input-helper {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-top: 30px;
+            flex-wrap: wrap;
             .input-checkbox {
               display: flex;
               align-items: center;
@@ -101,7 +103,7 @@
 
 // general css
 .input-container {
-    height: 700px;
+    max-height: 700px;
     overflow: scroll;
   .input-item {
     display: flex;
