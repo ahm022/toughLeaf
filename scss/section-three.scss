@@ -5,7 +5,7 @@
     position: relative;
     .image-wrapper {
         padding: 6% 5% 6% 0%;
-        width: 34.7%;
+        width: 39%;
         height: 63.5%;
         .img-holder {
             box-shadow: 0px 3px 10px #0b32511a;
@@ -29,23 +29,38 @@
 
     .legacy-details {
         position: absolute;
-        top: 20%;
+        top: 22%;
         left: 6%;
+        .date {
+            display: flex;
+            align-items: center;
+            margin: 2% 0;
+            .dash {
+                width: 3%;
+                height: 1px;
+                background-color: var(--primary-blue-1);
+            }
+            span {
+                margin-left: 5px;
+                color: var(--primary-grey-1);
+                font-size: 1vw;
+            }
+        }
         .title {
-            font-size: 3vw;
+            font-size: 2.5vw;
             color: var(--primary-blue-3);
-            margin-bottom: 1.8%;
-            font-weight: 500;
+            margin-bottom: 1%;
+            font-weight: 600;
             width: 38%;
         }
         .description {
             font-size: 1.2vw;
             width: 50%;
             color: var(--primary-grey-2);
-            margin-bottom: 6%;
+            font-weight: 300;
         }
         .about-us {
-            margin: 3.5% 0%;
+            margin: 1.5% 0%;
             color: var(--primary-blue-1);
             border: 0.01em solid var(--primary-blue-1);
             width: 10%;
@@ -60,6 +75,5 @@
             background-color: var(--primary-blue-1);
             border: none;
         }
-        
     }
 }
