@@ -74,3 +74,20 @@ postControl?.addEventListener('mouseout', function handleMouseOver() {
     postProject.style.display = 'none';
     xbeDb.style.display = 'none';
 });
+
+// Cards swiper
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+  var swiperOne = new Swiper(".swiperOne", {
+    
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+  });
+  
