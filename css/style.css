@@ -196,7 +196,7 @@ body {
 
 @media (max-width: 1100px) {
   .auth-header .right-item {
-    font-size: 21px; } }
+    font-size: 16px; } }
 
 .sign-up {
   display: flex; }
@@ -521,31 +521,37 @@ body {
             font-size: 0.417vw;
             color: var(--primary-grey-7);
             font-size: 0.67vw; }
-          .section-two .cards .card-container .card-item-container .card-item .card-item-image {
-            width: 3.021vw;
-            margin-top: 1.042vw; }
-            .section-two .cards .card-container .card-item-container .card-item .card-item-image img {
-              width: 100%;
-              height: 100%; }
-          .section-two .cards .card-container .card-item-container .card-item .card-item-button {
-            display: none;
-            background-color: var(--primary-white-1);
-            color: var(--primary-blue-1);
-            border: 0;
-            padding: 0.736vw 2.604vw;
-            border-radius: 36px;
-            margin-top: 1.042vw;
-            font-size: 0.815vw;
-            cursor: pointer; }
-          .section-two .cards .card-container .card-item-container .card-item:hover {
-            background-color: var(--primary-blue-1); }
-            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-title {
+        .section-two .cards .card-container .card-item-container .card-item-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          padding-left: 10px;
+          gap: 0.521vw;
+          padding: 1.042vw 0;
+          padding-bottom: 2.604vw; }
+          .section-two .cards .card-container .card-item-container .card-item-container .card-item {
+            width: 11.823vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: var(--primary-white-4);
+            padding: 0.848vw 3px;
+            border-radius: 8px;
+            min-height: 9.063vw; }
+            .section-two .cards .card-container .card-item-container .card-item-container .card-item .card-item-title {
               color: var(--primary-white-1); }
-            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-subtitle {
+            .section-two .cards .card-container .card-item-container .card-item-container .card-item .card-item-subtitle {
               color: var(--primary-white-1); }
-            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-image {
+            .section-two .cards .card-container .card-item-container .card-item-container .card-item .card-item-image {
+              width: 3.021vw;
+              margin-top: 1.042vw; }
+              .section-two .cards .card-container .card-item-container .card-item-container .card-item .card-item-image img {
+                width: 100%;
+                height: 100%;
+                display: flex; }
+            .section-two .cards .card-container .card-item-container .card-item-container .card-item .card-item-button {
               display: none; }
-            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-button {
+            .section-two .cards .card-container .card-item-container .card-item-container .card-item .card-item-button {
               display: block; }
         .section-two .cards .card-container .card-item-container.two-card-item .card-item {
           width: 100%; }
