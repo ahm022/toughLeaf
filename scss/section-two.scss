@@ -1,6 +1,8 @@
 .section-two {
   background-color: #f0f0f0;
-  padding: 6.979vw 4.45vw 5.208vw 6.2vw;
+  padding: 0 6.2vw;
+  padding-top: 6.979vw;
+  padding-bottom: 5.208vw;
   .card-title {
     display: flex;
     justify-content: space-between;
@@ -9,6 +11,11 @@
       display: flex;
       align-items: center;
       gap: 16px;
+      // .seperator {
+      //   width: 3.125vw;
+      //   height: 2px;
+      //   background-color: var(--primary-blue-1);
+      // }
       .label {
         font-size: 1.25vw;
         font-weight: 600;
@@ -29,6 +36,12 @@
         &.swiper-button-next {
           left: -2.5vw;
         }
+      }
+      span {
+        font-size: 1.25vw;
+        font-weight: 600;
+        padding-left: 16px;
+        color: var(--primary-grey-7);
       }
     }
   }
@@ -83,6 +96,7 @@
           background-color: var(--primary-white-4);
           padding: 0.848vw 3px;
           border-radius: 8px;
+          min-height: 9.063vw;
           .card-item-title {
             color: var(--primary-black-3);
             text-align: center;
@@ -95,24 +109,28 @@
             color: var(--primary-grey-7);
             font-size: 0.67vw;
           }
-        }
-        .card-item-container {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: flex-start;
-          padding-left: 10px;
-          gap: 0.521vw;
-          padding: 1.042vw 0;
-          padding-bottom: 2.604vw;
-          .card-item {
-            width: 11.823vw;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: var(--primary-white-4);
-            padding: 0.848vw 3px;
-            border-radius: 8px;
-            min-height: 9.063vw;
+          .card-item-image {
+            width: 3.021vw;
+            margin-top: 1.042vw;
+            img {
+              width: 100%;
+              height: 100%;
+              display: flex;
+            }
+          }
+          .card-item-button {
+            display: none;
+            background-color: var(--primary-white-1);
+            color: var(--primary-blue-1);
+            border: 0;
+            padding: 0.736vw 2.604vw;
+            border-radius: 36px;
+            margin-top: 1.042vw;
+            font-size: 0.815vw;
+            cursor: pointer;
+          }
+          &:hover {
+            background-color: var(--primary-blue-1);
             .card-item-title {
               color: var(--primary-white-1);
             }
@@ -120,15 +138,6 @@
               color: var(--primary-white-1);
             }
             .card-item-image {
-              width: 3.021vw;
-              margin-top: 1.042vw;
-              img {
-                width: 100%;
-                height: 100%;
-                display: flex;
-              }
-            }
-            .card-item-button {
               display: none;
             }
             .card-item-button {
