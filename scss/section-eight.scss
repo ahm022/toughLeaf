@@ -1,7 +1,7 @@
 
 .section-eight{
     .footer{
-      padding: 4.688vw 6.250vw;
+      padding: 4.688vw 6.250vw 2.604vw 6.250vw;
       background-color: var(--primary-blue-2);
       .footer-container{
         display: flex;
@@ -35,7 +35,8 @@
             border-left: 1px solid var(--primary-white-4);
             .item {
               font-size: 1.042vw;
-              color: var(--primary-white-1)
+              color: var(--primary-white-1);
+              cursor: pointer;
             }
           }
         }
