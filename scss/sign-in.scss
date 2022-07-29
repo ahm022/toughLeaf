@@ -1,16 +1,21 @@
 .auth {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
   justify-content: center;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  z-index: 1000000;
+  display: none;
   .auth-container {
     width: 100%;
     max-width: 940px;
     background: var(--primary-white-1);
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 5px;
+    margin: 5.208vw auto;
     .sign-in {
       display: flex;
       .left-section {
@@ -84,6 +89,7 @@
             .link {
               margin-left: 4px;
               color: var(--primary-blue-1);
+              cursor: pointer;
             }
           }
         }
@@ -94,10 +100,14 @@
           color: var(--primary-grey-12);
           .link{
             color: var(--primary-blue-1);
+            cursor: pointer;
           }
         }
       }
     }
+  }
+  &.show{
+    display: block;
   }
 }
 

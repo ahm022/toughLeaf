@@ -101,3 +101,4 @@ const displayNexTab = (hideId, showId, activeStepper, deactiveStepper) => {
   document.getElementById(activeStepper).classList.add("active");
   document.getElementById(deactiveStepper).classList.remove("active");
 };
+

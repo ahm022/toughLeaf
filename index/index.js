@@ -75,12 +75,11 @@ postControl?.addEventListener('mouseout', function handleMouseOver() {
     xbeDb.style.display = 'none';
 });
 
-// Cards swiper
+//  swiper
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     pagination: {
       el: ".swiper-pagination",
-      clickable: true,
     },
   });
   var swiperOne = new Swiper(".swiperOne", {
@@ -90,4 +89,26 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
       },
   });
+
+  var infoSwiper = new Swiper(".infoSwiper", {
+    pagination: {
+        el: ".swiper-pagination-info", 
+    }
+  });
+
+// auth  
+const displayLoggedInPage = ()=>{
+    hideRegisterPage()
+    document.getElementById('signIn').classList.add("show")
+  }
+  const hideLoggedInPage = ()=>{
+    document.getElementById('signIn').classList.remove("show")
+  }
+  const displayRegisterPage = ()=>{
+    hideLoggedInPage ()
+    document.getElementById('signUp').classList.add("show")
+  }
+  const hideRegisterPage = ()=>{
+    document.getElementById('signUp').classList.remove("show")
+  }
   
