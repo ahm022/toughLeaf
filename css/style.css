@@ -221,7 +221,7 @@ body {
           height: 36px;
           border-radius: 50%;
           color: var(--primary-white-1); }
-    .sign-up .left-section .seperator {
+    .sign-up .left-section .separator {
       width: 26px;
       height: 4px;
       margin: auto;
@@ -747,6 +747,28 @@ body {
               font-size: 1.8vw;
               color: var(--primary-white-3); }
 
+.section-five {
+  padding: 6.250vw 5.208vw;
+  position: relative; }
+  .section-five .top-items .title {
+    font-size: 2.604vw;
+    color: var(--primary-blue-2);
+    text-align: center;
+    font-weight: 600; }
+  .section-five .top-items .seperator {
+    width: 2.500vw;
+    height: 2px;
+    background-color: var(--primary-blue-1);
+    margin: auto;
+    margin-top: 3.646vw; }
+  .section-five .bottom-items {
+    width: 100%;
+    height: 36.406vw;
+    margin-top: 3.646vw; }
+    .section-five .bottom-items iframe {
+      width: 100%;
+      height: 100%; }
+
 .section-six {
   background-color: var(--primary-white-2); }
   .section-six .info {
@@ -787,6 +809,7 @@ body {
 .section-seven {
   display: flex;
   justify-content: end;
+  min-height: 70.5vw;
   padding: 6.2vw 4.45vw;
   background: transparent url("../img/section-seven/collapse-section-mask.png") 0% 0% no-repeat padding-box; }
   .section-seven .info-container {
@@ -866,24 +889,3 @@ body {
     .section-eight .footer .bottom-section .right-item {
       display: flex;
       gap: 1.042vw; }
-
-.section-five {
-  padding: 6.250vw 5.208vw; }
-  .section-five .top-items .title {
-    font-size: 2.604vw;
-    color: var(--primary-blue-2);
-    text-align: center;
-    font-weight: 600; }
-  .section-five .top-items .seperator {
-    width: 2.500vw;
-    height: 2px;
-    background-color: var(--primary-blue-1);
-    margin: auto;
-    margin-top: 3.646vw; }
-  .section-five .bottom-items {
-    width: 100%;
-    height: 36.406vw;
-    margin-top: 3.646vw; }
-    .section-five .bottom-items iframe {
-      width: 100%;
-      height: 100%; }
