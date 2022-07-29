@@ -673,7 +673,8 @@ body {
           align-items: center;
           background-color: var(--primary-white-4);
           padding: 0.848vw 3px;
-          border-radius: 8px; }
+          border-radius: 8px;
+          min-height: 9.063vw; }
           .section-two .cards .card-container .card-item-container .card-item .card-item-title {
             color: var(--primary-black-3);
             text-align: center;
