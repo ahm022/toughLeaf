@@ -193,3 +193,10 @@
     }
   }
 }
+@media(max-width : 850px) {
+  .sign-in {
+    .left-section{
+      flex-shrink: unset !important;
+    }
+  }
+}
