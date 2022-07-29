@@ -199,6 +199,10 @@ body {
   .auth-header .right-item {
     font-size: 16px; } }
 
+@media (max-width: 850px) {
+  .sign-in .left-section {
+    flex-shrink: unset !important; } }
+
 .sign-up {
   display: flex; }
   .sign-up .left-section {
@@ -313,6 +317,10 @@ body {
         margin: 0; }
     .sign-up .right-section {
       padding: 40px 30px; } }
+
+@media (max-width: 850px) {
+  .sign-up .left-section {
+    flex-shrink: unset; } }
 
 .section-one .image-holder {
   width: 100%;
