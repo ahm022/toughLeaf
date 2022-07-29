@@ -1,18 +1,22 @@
 .section-seven {
-    height: 67.8vw;
+    display: flex;
+    justify-content: end;
     background-color: var(--primary-grey-10);
-    padding: 6.2vw 4.75vw;
+    padding: 6.2vw 4.45vw;
     .info-container {
         width: 62.7vw;
         .info-header {
             .title {
                 color: var(--primary-blue-3);
                 font-size: 2.5vw;
-                font-weight: 500;
             }
-            .description {
-                font-size: 0.9vw;
-                color: var(--primary-grey-2);
+            .description-container {
+                display: flex;
+                justify-content: space-between;
+                .description {
+                    font-size: 0.9vw;
+                    color: var(--primary-grey-2);
+                }
             }
             .dash {
                 margin-top: 1.5vw;
