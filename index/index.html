@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="../css/style.css" />
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
@@ -140,7 +143,7 @@
       <div class="right-section">
         <img class="swiper-button-prev" src="/img/section-two/prev.svg" />
         <img class="swiper-button-next" src="/img/section-two/next.svg" />
-        <span>VIEW ALL</span>
+        <span class="view-all">VIEW ALL</span>
       </div>
     </div>
     <div class="swiper swiperOne">
@@ -664,7 +667,7 @@
       </div>
       <div class="info-container swiper-slide">
         <div class="left-section">
-          <img src="../img/section-six/restani.svg" />
+          <img src="../img/section-six/restani.png" />
         </div>
         <div class="right-section">
           <div class="top-item">
@@ -690,7 +693,10 @@
     <div class="info-container">
       <div class="info-header">
         <div class="title">FAQ</div>
-        <div class="description">Here are some of the toughLeaf frequently asked questions</div>
+        <div class="description-container">
+          <div class="description">Here are some of the toughLeaf frequently asked questions</div>
+          <span class="view-all">VIEW ALL</span>
+        </div>
         <div class="dash"></div>
       </div>
       <div class="info-questions">
@@ -699,8 +705,8 @@
             <div class="text">
               How to bid for new project?
             </div>
-            <span data-bs-toggle="collapse" href="#question1" role="button" aria-expanded="false"
-              aria-controls="question1">
+            <span id="question1ToggleBtn" data-bs-toggle="collapse" href="#question1" role="button"
+              aria-expanded="false" aria-controls="question1" onclick="toggleCollapse('question1ToggleBtn')">
               +
             </span>
           </div>
@@ -718,13 +724,13 @@
             <div class="text">
               How to achieve participation goals?
             </div>
-            <span data-bs-toggle="collapse" href="#question1" role="button" aria-expanded="false"
-              aria-controls="question1">
+            <span data-bs-toggle="collapse" id="question2ToggleBtn" onclick="toggleCollapse('question2ToggleBtn')"
+              href="#question2" role="button" aria-expanded="false" aria-controls="question2">
               +
             </span>
           </div>
 
-          <div class="collapse" id="question1">
+          <div class="collapse" id="question2">
             <div class="card card-body">
               You can find capable, verified & reviewed D/M/WBE, Review, Award, & Onboard find capable, verified &
               reviewed D/M/WBE, Review, Award, & Onboard
@@ -737,13 +743,13 @@
             <div class="text">
               How to achieve participation goals?
             </div>
-            <span data-bs-toggle="collapse" href="#question1" role="button" aria-expanded="false"
-              aria-controls="question1">
+            <span id="question3ToggleBtn" onclick="toggleCollapse('question3ToggleBtn')" data-bs-toggle="collapse"
+              href="#question3" role="button" aria-expanded="false" aria-controls="question3">
               +
             </span>
           </div>
 
-          <div class="collapse" id="question1">
+          <div class="collapse" id="question3">
             <div class="card card-body">
               You can find capable, verified & reviewed D/M/WBE, Review, Award, & Onboard find capable, verified &
               reviewed D/M/WBE, Review, Award, & Onboard
@@ -756,13 +762,13 @@
             <div class="text">
               How to achieve participation goals?
             </div>
-            <span data-bs-toggle="collapse" href="#question1" role="button" aria-expanded="false"
-              aria-controls="question1">
+            <span id="question4ToggleBtn" onclick="toggleCollapse('question4ToggleBtn')" data-bs-toggle="collapse"
+              href="#question4" role="button" aria-expanded="false" aria-controls="question4">
               +
             </span>
           </div>
 
-          <div class="collapse" id="question1">
+          <div class="collapse" id="question4">
             <div class="card card-body">
               You can find capable, verified & reviewed D/M/WBE, Review, Award, & Onboard find capable, verified &
               reviewed D/M/WBE, Review, Award, & Onboard
@@ -775,13 +781,13 @@
             <div class="text">
               How to achieve participation goals?
             </div>
-            <span data-bs-toggle="collapse" href="#question1" role="button" aria-expanded="false"
-              aria-controls="question1">
+            <span id="question5ToggleBtn" onclick="toggleCollapse('question5ToggleBtn')" data-bs-toggle="collapse"
+              href="#question5" role="button" aria-expanded="false" aria-controls="question5">
               +
             </span>
           </div>
 
-          <div class="collapse" id="question1">
+          <div class="collapse" id="question5">
             <div class="card card-body">
               You can find capable, verified & reviewed D/M/WBE, Review, Award, & Onboard find capable, verified &
               reviewed D/M/WBE, Review, Award, & Onboard
@@ -917,7 +923,7 @@
             </div>
           </div>
 
-          <div class="dash"></div>
+          <div class="separator"></div>
 
           <div class="logo">
             <img src="../img/close-icon.svg" />

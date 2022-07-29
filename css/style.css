@@ -28,7 +28,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 body {
   max-width: 1920px;
@@ -39,6 +39,17 @@ body {
   width: 2.5vw;
   height: 0.1vw;
   background-color: var(--primary-blue-1); }
+
+.blue-color {
+  color: var(--primary-blue-1) !important; }
+  .blue-color span {
+    color: var(--primary-black-1) !important; }
+
+.view-all {
+  font-size: 1.25vw;
+  font-weight: 600;
+  padding-left: 16px;
+  color: var(--primary-grey-2); }
 
 .auth {
   min-height: 100vh;
@@ -429,9 +440,7 @@ body {
 
 .section-two {
   background-color: #f0f0f0;
-  padding: 0 6.2vw;
-  padding-top: 6.979vw;
-  padding-bottom: 5.208vw; }
+  padding: 6.979vw 4.45vw 5.208vw 6.2vw; }
   .section-two .card-title {
     display: flex;
     justify-content: space-between;
@@ -456,11 +465,6 @@ body {
           left: -5.521vw; }
         .section-two .card-title .right-section img.swiper-button-next {
           left: -2.5vw; }
-      .section-two .card-title .right-section span {
-        font-size: 1.25vw;
-        font-weight: 600;
-        padding-left: 16px;
-        color: var(--primary-grey-7); }
   .section-two .cards {
     display: flex;
     gap: 2.083vw;
@@ -770,18 +774,21 @@ body {
         background-color: var(--primary-blue-2); }
 
 .section-seven {
-  height: 67.8vw;
+  display: flex;
+  justify-content: end;
   background-color: var(--primary-grey-10);
-  padding: 6.2vw 4.75vw; }
+  padding: 6.2vw 4.45vw; }
   .section-seven .info-container {
     width: 62.7vw; }
     .section-seven .info-container .info-header .title {
       color: var(--primary-blue-3);
-      font-size: 2.5vw;
-      font-weight: 500; }
-    .section-seven .info-container .info-header .description {
-      font-size: 0.9vw;
-      color: var(--primary-grey-2); }
+      font-size: 2.5vw; }
+    .section-seven .info-container .info-header .description-container {
+      display: flex;
+      justify-content: space-between; }
+      .section-seven .info-container .info-header .description-container .description {
+        font-size: 0.9vw;
+        color: var(--primary-grey-2); }
     .section-seven .info-container .info-header .dash {
       margin-top: 1.5vw;
       margin-bottom: 3vw; }
