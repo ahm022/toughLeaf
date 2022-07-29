@@ -755,10 +755,18 @@ body {
       padding: 6.25vw 6.25vw 4.167vw 3.906vw;
       display: flex;
       gap: 15.615vw; }
-      .section-six .info .info-container .left-section .bgImage {
-        width: 25.833vw; }
-      .section-six .info .info-container .left-section .image {
-        width: 14.427vw; }
+      .section-six .info .info-container .left-section {
+        background: url("../img/section-six/restaniBg.png");
+        width: 25.833vw;
+        height: 23.125vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: contain; }
+        .section-six .info .info-container .left-section img {
+          width: 14.427vw;
+          height: 14.427vw;
+          margin-left: 3.5vw; }
       .section-six .info .info-container .right-section .top-item {
         width: 2.708vw; }
         .section-six .info .info-container .right-section .top-item img {

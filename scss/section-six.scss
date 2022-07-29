@@ -7,11 +7,17 @@
       display: flex;
       gap: 15.615vw;
       .left-section {
-        .bgImage{
-          width: 25.833vw;
-        }
-        .image {
-          width: 14.427vw;
+        background: url('../img/section-six/restaniBg.png');
+        width: 25.833vw;
+        height: 23.125vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: contain;
+        img {
+          width: 14.427vw ;
+          height: 14.427vw;
+          margin-left: 3.5vw;
         }
       }
       .right-section {
