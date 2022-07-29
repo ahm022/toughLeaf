@@ -7,8 +7,11 @@
       display: flex;
       gap: 15.615vw;
       .left-section {
-        img {
+        .bgImage{
           width: 25.833vw;
+        }
+        .image {
+          width: 14.427vw;
         }
       }
       .right-section {

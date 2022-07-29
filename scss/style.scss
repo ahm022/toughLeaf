@@ -9,32 +9,4 @@
 @import "section-six.scss";
 @import "section-seven.scss";
 @import "section-eight.scss";
-
-.section-five{
-    padding: 6.250vw 5.208vw;
-    .top-items {
-        .title{
-            font-size: 2.604vw;
-            color: var(--primary-blue-2);
-            text-align: center;
-            font-weight: 600;
-        }
-        .seperator{
-            width: 2.500vw;
-            height: 2px;
-            background-color: var(--primary-blue-1);
-            margin: auto;
-            margin-top: 3.646vw;
-        }
-    }
-    .bottom-items{
-        width: 100%;
-        height: 36.406vw;
-        margin-top: 3.646vw;
-        iframe {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-}
+@import "section-five.scss";

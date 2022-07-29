@@ -192,7 +192,7 @@ body {
     .auth .auth-container .sign-in .right-section {
       padding: 40px 30px 40px 30px; }
   .auth-header .right-item {
-    font-size: 21px; } }
+    font-size: 16px; } }
 
 @media (max-width: 1100px) {
   .auth-header .right-item {
@@ -755,8 +755,10 @@ body {
       padding: 6.25vw 6.25vw 4.167vw 3.906vw;
       display: flex;
       gap: 15.615vw; }
-      .section-six .info .info-container .left-section img {
+      .section-six .info .info-container .left-section .bgImage {
         width: 25.833vw; }
+      .section-six .info .info-container .left-section .image {
+        width: 14.427vw; }
       .section-six .info .info-container .right-section .top-item {
         width: 2.708vw; }
         .section-six .info .info-container .right-section .top-item img {
