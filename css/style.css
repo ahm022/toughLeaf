@@ -795,8 +795,8 @@ body {
 .section-seven {
   display: flex;
   justify-content: end;
-  background-color: var(--primary-grey-10);
-  padding: 6.2vw 4.45vw; }
+  padding: 6.2vw 4.45vw;
+  background: transparent url("../img/section-seven/collapse-section-mask.png") 0% 0% no-repeat padding-box; }
   .section-seven .info-container {
     width: 62.7vw; }
     .section-seven .info-container .info-header .title {
