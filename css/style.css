@@ -78,7 +78,8 @@ body {
         align-items: center;
         justify-content: center;
         background-color: var(--primary-blue-3);
-        border-radius: 5px 0 0 5px; }
+        border-radius: 5px 0 0 5px;
+        flex-shrink: 0; }
         .auth .auth-container .sign-in .left-section .left-section-container .logo {
           width: 3.125vw;
           height: 3.125vw;
@@ -203,7 +204,8 @@ body {
   .sign-up .left-section {
     width: 300px;
     padding: 40px 30px;
-    box-shadow: 10px 0px 15px #0000000d; }
+    box-shadow: 10px 0px 15px #0000000d;
+    flex-shrink: 0; }
     .sign-up .left-section .stepper {
       display: flex;
       align-items: center;
@@ -254,7 +256,8 @@ body {
       .sign-up .left-section .hint .link {
         margin-top: 20px;
         color: var(--primary-blue-1);
-        font-weight: 600; }
+        font-weight: 600;
+        cursor: pointer; }
   .sign-up .right-section {
     width: 100%;
     padding: 40px 60px; }
