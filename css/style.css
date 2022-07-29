@@ -191,8 +191,8 @@ body {
         background-color: var(--primary-blue-3);
         border-radius: 5px 0 0 5px; }
         .auth .auth-container .sign-in .left-section .left-section-container .logo {
-          width: 60px;
-          height: 60px;
+          width: 3.125vw;
+          height: 3.125vw;
           margin: auto; }
           .auth .auth-container .sign-in .left-section .left-section-container .logo img {
             width: 100%;
@@ -202,39 +202,40 @@ body {
           text-align: center;
           margin-top: 20px; }
       .auth .auth-container .sign-in .right-section {
-        padding: 40px 60px 40px 60px;
+        padding: 40px 3.636vw 40px 3.636vw;
         width: 100%; }
         .auth .auth-container .sign-in .right-section .sign-in-body {
-          margin-top: 42px; }
+          margin-top: 2.188vw; }
           .auth .auth-container .sign-in .right-section .sign-in-body .input-helper {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: 30px;
+            margin-top: 1.563vw;
             flex-wrap: wrap; }
             .auth .auth-container .sign-in .right-section .sign-in-body .input-helper .input-checkbox {
               display: flex;
               align-items: center; }
               .auth .auth-container .sign-in .right-section .sign-in-body .input-helper .input-checkbox label {
                 margin-left: 14px;
-                font-size: 21px;
+                font-size: 16px;
                 color: var(--primary-grey-12); }
             .auth .auth-container .sign-in .right-section .sign-in-body .input-helper .label {
               color: var(--primary-blue-1); }
           .auth .auth-container .sign-in .right-section .sign-in-body .sign-in-button {
             width: 100%; }
             .auth .auth-container .sign-in .right-section .sign-in-body .sign-in-button button {
-              height: 60px;
+              height: 3.125vw;
               width: 100%;
               margin-top: 30px;
               color: var(--primary-white-1);
               background: var(--primary-black-1);
               border: 0;
-              border-radius: 36px; }
+              border-radius: 36px;
+              min-height: 50px; }
           .auth .auth-container .sign-in .right-section .sign-in-body .sign-in-hint {
             display: flex;
             justify-content: center;
-            margin-top: 91px; }
+            margin-top: 3.646vw; }
             .auth .auth-container .sign-in .right-section .sign-in-body .sign-in-hint .label {
               color: var(--primary-grey-12); }
             .auth .auth-container .sign-in .right-section .sign-in-body .sign-in-hint .link {
@@ -242,7 +243,7 @@ body {
               color: var(--primary-blue-1);
               cursor: pointer; }
         .auth .auth-container .sign-in .right-section .sign-in-footer {
-          margin-top: 70px;
+          margin-top: 3.646vw;
           font-size: 14px;
           text-align: center;
           color: var(--primary-grey-12); }
@@ -258,15 +259,16 @@ body {
   .input-container .input-item {
     display: flex;
     flex-direction: column;
-    min-height: 116px; }
+    min-height: 100px; }
     .input-container .input-item label {
       color: var(--primary-grey-12); }
     .input-container .input-item input {
       border: 1px solid #c2c4c5;
-      height: 60px;
+      height: 3.125vw;
       border-radius: 4px;
       margin-top: 8px;
-      padding: 0 20px; }
+      padding: 0 20px;
+      min-height: 50px; }
       .input-container .input-item input::placeholder {
         color: var(--primary-grey-11); }
     .input-container .input-item .error {
@@ -281,7 +283,7 @@ body {
   align-items: center;
   justify-content: space-between; }
   .auth-header .right-item {
-    font-size: 28px;
+    font-size: 1.458vw;
     color: var(--primary-grey-14);
     font-weight: 500; }
   .auth-header .left-item {
@@ -299,7 +301,13 @@ body {
       padding: 20px;
       order: 2; }
     .auth .auth-container .sign-in .right-section {
-      padding: 40px 30px 40px 30px; } }
+      padding: 40px 30px 40px 30px; }
+  .auth-header .right-item {
+    font-size: 21px; } }
+
+@media (max-width: 1100px) {
+  .auth-header .right-item {
+    font-size: 21px; } }
 
 .sign-up {
   display: flex; }
@@ -333,10 +341,10 @@ body {
     .sign-up .left-section .logo {
       display: flex;
       justify-content: center;
-      margin-top: 76px; }
+      margin-top: 3.958vw; }
       .sign-up .left-section .logo img {
-        width: 60px;
-        height: 60px; }
+        width: 3.125vw;
+        height: 3.125vw; }
     .sign-up .left-section .text {
       margin-top: 20px;
       text-align: center; }
@@ -350,7 +358,7 @@ body {
       display: flex;
       flex-direction: column;
       text-align: center;
-      margin-top: 80px;
+      margin-top: 4.167vw;
       font-size: 14px;
       text-decoration: none;
       color: var(--primary-grey-11); }
@@ -362,9 +370,9 @@ body {
     width: 100%;
     padding: 40px 60px; }
     .sign-up .right-section .sign-up-body {
-      margin-top: 42px; }
+      margin-top: 2.188vw; }
   .sign-up .sign-up-button {
-    margin-top: 100px;
+    margin-top: 5.208vw;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;

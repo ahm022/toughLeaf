@@ -34,10 +34,10 @@
       .logo {
         display: flex;
         justify-content: center;
-        margin-top: 76px;
+        margin-top: 3.958vw;
         img {
-          width: 60px;
-          height: 60px;
+          width: 3.125vw;
+          height: 3.125vw;
         }
       }
       .text {
@@ -56,7 +56,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 4.167vw;
         font-size: 14px;
         text-decoration: none;
         color: var(--primary-grey-11);
@@ -71,11 +71,11 @@
       width: 100%;
       padding: 40px 60px;
       .sign-up-body{
-        margin-top: 42px;
+        margin-top: 2.188vw;
       }
     }
     .sign-up-button {
-      margin-top: 100px;
+      margin-top: 5.208vw;
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
