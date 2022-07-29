@@ -14,7 +14,7 @@
         .seperator {
           width: 3.125vw;
           height: 2px;
-          background-color: var(--primary-blue-2);
+          background-color: var(--primary-blue-1);
         }
         .label {
           font-size: 1.25vw;
@@ -54,9 +54,7 @@
       .card-container {
         padding: 1.458vw;
         background-color: var(--primary-white-1);
-        height: fit-content;
         min-width: 27.76vw;
-        max-height: 656px;
         .title {
           text-align: center;
           color: var(--primary-black-3);
@@ -132,21 +130,21 @@
               font-size: 0.815vw;
               cursor: pointer;
             }
-            // &:hover {
-            //   background-color: var(--primary-blue-1);
-            //   .card-item-title {
-            //     color: var(--primary-white-1);
-            //   }
-            //   .card-item-subtitle {
-            //     color: var(--primary-white-1);
-            //   }
-            //   .card-item-image {
-            //     display: none;
-            //   }
-            //   .card-item-button {
-            //     display: block;
-            //   }
-            // }
+            &:hover {
+              background-color: var(--primary-blue-1);
+              .card-item-title {
+                color: var(--primary-white-1);
+              }
+              .card-item-subtitle {
+                color: var(--primary-white-1);
+              }
+              .card-item-image {
+                display: none;
+              }
+              .card-item-button {
+                display: block;
+              }
+            }
           }
           &.two-card-item {
             .card-item {

@@ -557,7 +557,7 @@ body {
       .section-two .card-title .left-section .seperator {
         width: 3.125vw;
         height: 2px;
-        background-color: var(--primary-blue-2); }
+        background-color: var(--primary-blue-1); }
       .section-two .card-title .left-section .label {
         font-size: 1.25vw;
         font-weight: 600;
@@ -588,9 +588,7 @@ body {
     .section-two .cards .card-container {
       padding: 1.458vw;
       background-color: var(--primary-white-1);
-      height: fit-content;
-      min-width: 27.76vw;
-      max-height: 656px; }
+      min-width: 27.76vw; }
       .section-two .cards .card-container .title {
         text-align: center;
         color: var(--primary-black-3);
@@ -656,6 +654,16 @@ body {
             margin-top: 1.042vw;
             font-size: 0.815vw;
             cursor: pointer; }
+          .section-two .cards .card-container .card-item-container .card-item:hover {
+            background-color: var(--primary-blue-1); }
+            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-title {
+              color: var(--primary-white-1); }
+            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-subtitle {
+              color: var(--primary-white-1); }
+            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-image {
+              display: none; }
+            .section-two .cards .card-container .card-item-container .card-item:hover .card-item-button {
+              display: block; }
         .section-two .cards .card-container .card-item-container.two-card-item .card-item {
           width: 100%; }
       .section-two .cards .card-container .card-button {
