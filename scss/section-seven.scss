@@ -1,9 +1,10 @@
 .section-seven {
     display: flex;
     justify-content: end;
-    // background-color: var(--primary-grey-10);
+    min-height: 70.5vw;
     padding: 6.2vw 4.45vw;
     background: transparent url("../img/section-seven/collapse-section-mask.png") 0% 0% no-repeat padding-box;
+    background-size: cover;
     .info-container {
         width: 62.7vw;
         .info-header {
