@@ -96,11 +96,11 @@
           background-color: var(--primary-white-4);
           padding: 0.848vw 3px;
           border-radius: 8px;
-          min-height: 9.063vw;
+          min-height: 9.323vw;
           .card-item-title {
             color: var(--primary-black-3);
             text-align: center;
-            font-size: 0.729vw;
+            font-size: 0.629vw;
             max-width: 10.833vw;
           }
           .card-item-subtitle {
@@ -111,6 +111,7 @@
           }
           .card-item-image {
             width: 3.021vw;
+            height: 3.021vw;
             margin-top: 1.042vw;
             img {
               width: 100%;

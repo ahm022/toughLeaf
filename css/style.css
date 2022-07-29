@@ -227,7 +227,7 @@ body {
           height: 36px;
           border-radius: 50%;
           color: var(--primary-white-1); }
-    .sign-up .left-section .separator {
+    .sign-up .left-section .seperator {
       width: 26px;
       height: 4px;
       margin: auto;
@@ -320,7 +320,7 @@ body {
 
 @media (max-width: 850px) {
   .sign-up .left-section {
-    flex-shrink: unset; } }
+    flex-shrink: unset !important; } }
 
 .section-one .image-holder {
   width: 100%;
@@ -529,11 +529,11 @@ body {
           background-color: var(--primary-white-4);
           padding: 0.848vw 3px;
           border-radius: 8px;
-          min-height: 9.063vw; }
+          min-height: 9.323vw; }
           .section-two .cards .card-container .card-item-container .card-item .card-item-title {
             color: var(--primary-black-3);
             text-align: center;
-            font-size: 0.729vw;
+            font-size: 0.629vw;
             max-width: 10.833vw; }
           .section-two .cards .card-container .card-item-container .card-item .card-item-subtitle {
             margin-top: 0.4vw;
@@ -542,6 +542,7 @@ body {
             font-size: 0.67vw; }
           .section-two .cards .card-container .card-item-container .card-item .card-item-image {
             width: 3.021vw;
+            height: 3.021vw;
             margin-top: 1.042vw; }
             .section-two .cards .card-container .card-item-container .card-item .card-item-image img {
               width: 100%;
