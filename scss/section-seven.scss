@@ -1,0 +1,49 @@
+.section-seven {
+    height: 67.8vw;
+    background-color: var(--primary-grey-10);
+    padding: 6.2vw 4.75vw;
+    .info-container {
+        width: 62.7vw;
+        .info-header {
+            .title {
+                color: var(--primary-blue-3);
+                font-size: 2.5vw;
+                font-weight: 500;
+            }
+            .description {
+                font-size: 0.9vw;
+                color: var(--primary-grey-2);
+            }
+            .dash {
+                margin-top: 1.5vw;
+                margin-bottom: 3vw;
+            }
+        }
+        .info-questions {
+            .question {
+                width: 100%;
+                min-height: 4.5vw;
+                background-color: var(--primary-white-1);
+                padding: 1.35vw 2.15vw;
+                border: 1px solid var(--primary-grey-6);
+                border-radius: 0.5vw;
+                margin-bottom: 1.1vw;
+                .title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-size: 1.2vw;
+                    color: var(--primary-black-1);
+                }
+                .card-body {
+                    font-size: 1.1vw;
+                    color: var(--primary-grey-7);
+                    border: none;
+                    border-radius: 0;
+                    margin-top: -0.1vw;
+                    padding: 1vw 0 0 0;
+                }
+            }
+        }
+    }
+}

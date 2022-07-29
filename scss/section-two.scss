@@ -11,11 +11,11 @@
         display: flex;
         align-items: center;
         gap: 16px;
-        .seperator {
-          width: 3.125vw;
-          height: 2px;
-          background-color: var(--primary-blue-1);
-        }
+        // .seperator {
+        //   width: 3.125vw;
+        //   height: 2px;
+        //   background-color: var(--primary-blue-1);
+        // }
         .label {
           font-size: 1.25vw;
           font-weight: 600;
@@ -60,10 +60,7 @@
           color: var(--primary-black-3);
           font-size: 1.25vw;
         }
-        .seperator {
-          width: 3.1vw;
-          height: 1px;
-          background-color: var(--primary-blue-1);
+        .dash {
           margin: auto;
           margin-top: 0.677vw;
         }
