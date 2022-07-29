@@ -733,7 +733,7 @@ body {
           text-align: center;
           font-weight: 600; }
         .section-four .down-section .image-holder .details .statistics {
-          gap: 8vw;
+          gap: 7vw;
           justify-content: center;
           display: flex;
           align-items: center; }
@@ -777,10 +777,18 @@ body {
       padding: 6.25vw 6.25vw 4.167vw 3.906vw;
       display: flex;
       gap: 15.615vw; }
-      .section-six .info .info-container .left-section .bgImage {
-        width: 25.833vw; }
-      .section-six .info .info-container .left-section .image {
-        width: 14.427vw; }
+      .section-six .info .info-container .left-section {
+        background: url("../img/section-six/restaniBg.png");
+        width: 25.833vw;
+        height: 23.125vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: contain; }
+        .section-six .info .info-container .left-section img {
+          width: 14.427vw;
+          height: 14.427vw;
+          margin-left: 3.5vw; }
       .section-six .info .info-container .right-section .top-item {
         width: 2.708vw; }
         .section-six .info .info-container .right-section .top-item img {
@@ -811,7 +819,8 @@ body {
   justify-content: end;
   min-height: 70.5vw;
   padding: 6.2vw 4.45vw;
-  background: transparent url("../img/section-seven/collapse-section-mask.png") 0% 0% no-repeat padding-box; }
+  background: transparent url("../img/section-seven/collapse-section-mask.png") 0% 0% no-repeat padding-box;
+  background-size: cover; }
   .section-seven .info-container {
     width: 62.7vw; }
     .section-seven .info-container .info-header .title {
