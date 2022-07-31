@@ -59,18 +59,21 @@ hiring?.addEventListener('mouseover', function handleMouseOver() {
   xbe.style.opacity = '0.5';
   bgImage.style.background = "url('../img/section-four/hiring-bg.png')";
   bgImage.style.backgroundSize = "cover";
+  bgImage.style.backgroundPosition="center";
 });
 
 hiring?.addEventListener('mouseout', function handleMouseOver() {
   xbe.style.opacity = '1';
   bgImage.style.background = "url('../img/section-four/mask-group-upper.png')";
   bgImage.style.backgroundSize = "cover";
+  bgImage.style.backgroundPosition="center";
 });
 
 xbe?.addEventListener('mouseover', function handleMouseOver() {
   hiring.style.opacity = '0.5';
   bgImage.style.background = "url('../img/section-four/xbe-bg.png')";
   bgImage.style.backgroundSize = "cover";
+  bgImage.style.backgroundPosition="center";
 });
 
 xbe?.addEventListener('mouseout', function handleMouseOver() {
