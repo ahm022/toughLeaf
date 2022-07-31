@@ -615,7 +615,7 @@ body {
         .section-two .cards .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
           background-color: var(--primary-blue-1); }
       .section-two .cards .swiper-pagination span {
-        margin: 0 1.042vw 0 0 !important; }
+        margin: 0 0.8vw 0 0 !important; }
 
 .section-three {
   display: flex;
