@@ -1,8 +1,7 @@
 .section-two {
   background-color: #f0f0f0;
-  padding: 0 6.2vw;
-  padding-top: 6.979vw;
-  padding-bottom: 5.208vw;
+  padding: 6.2vw 4.45vw;
+
   .card-title {
     display: flex;
     justify-content: space-between;
@@ -11,11 +10,6 @@
       display: flex;
       align-items: center;
       gap: 16px;
-      // .seperator {
-      //   width: 3.125vw;
-      //   height: 2px;
-      //   background-color: var(--primary-blue-1);
-      // }
       .label {
         font-size: 1.25vw;
         font-weight: 600;
@@ -95,7 +89,7 @@
           align-items: center;
           background-color: var(--primary-white-4);
           padding: 0.848vw 3px;
-          border-radius: 0.417vw;
+          border-radius: 0.4vw;
           min-height: 9.323vw;
           .card-item-title {
             color: var(--primary-black-3);
@@ -187,7 +181,7 @@
         }
       }
       span {
-        margin:  0 1.042vw 0 0 !important;
+        margin: 0 1.042vw 0 0 !important;
       }
     }
   }

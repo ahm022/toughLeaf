@@ -368,22 +368,24 @@ body {
           .section-one .image-holder .image-holder-container .details .header .menu .item {
             font-size: 0.95vw;
             font-weight: 500;
-            color: var(--primary-white-3);
+            color: var(--primary-grey-5);
             padding: 0 2.65vw;
             cursor: pointer; }
             .section-one .image-holder .image-holder-container .details .header .menu .item.with-border {
               border-right: 2px solid var(--primary-grey-4);
               margin-right: 2%; }
+            .section-one .image-holder .image-holder-container .details .header .menu .item.selected-item {
+              color: var(--primary-white-3); }
           .section-one .image-holder .image-holder-container .details .header .menu .book-demo {
             font-size: 0.8vw;
             font-weight: 500;
-            color: var(--primary-white-3);
+            color: var(--primary-grey-5);
             padding: 0.54vw 1.25vw;
             cursor: pointer;
             margin-right: 1vw; }
           .section-one .image-holder .image-holder-container .details .header .menu .book-demo:hover {
             background-color: var(--primary-grey-2);
-            color: var(--primary-white-1);
+            color: var(--primary-white-3);
             border-radius: 20px; }
           .section-one .image-holder .image-holder-container .details .header .menu .login {
             cursor: pointer;
@@ -428,7 +430,7 @@ body {
         border: none; }
     .section-one .image-holder .image-holder-container .bottom {
       width: 100%;
-      height: 8.7vw;
+      height: calc(100% - 47.75vw);
       background: rgba(36, 145, 235, 0.15) 0% 0% no-repeat padding-box;
       display: flex;
       align-items: center; }
@@ -468,9 +470,7 @@ body {
 
 .section-two {
   background-color: #f0f0f0;
-  padding: 0 6.2vw;
-  padding-top: 6.979vw;
-  padding-bottom: 5.208vw; }
+  padding: 6.2vw 4.45vw; }
   .section-two .card-title {
     display: flex;
     justify-content: space-between;
@@ -545,7 +545,7 @@ body {
           align-items: center;
           background-color: var(--primary-white-4);
           padding: 0.848vw 3px;
-          border-radius: 0.417vw;
+          border-radius: 0.4vw;
           min-height: 9.323vw; }
           .section-two .cards .card-container .card-item-container .card-item .card-item-title {
             color: var(--primary-black-3);
