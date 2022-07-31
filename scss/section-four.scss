@@ -10,15 +10,15 @@
             width: 100%;
         }
         .state-holder {
-            height: 36.15vw;
+            min-height: 36.15vw;
             position: relative;
-            .default-state-img-holder {
+            #default-state-img-holder {
                 display: block;
                 height: 100%;
+                background: url("../img/section-four/mask-group-upper.png");
+                background-size: cover;
             }
             .states-wrapper {
-                position: absolute;
-                top: 0;
                 height: 100%;
                 width: 100%;
                 background-color: var(--primary-black-3);
@@ -33,6 +33,7 @@
                     align-items: center;
                     justify-content: center;
                     color: var(--primary-white-1);
+                    padding: 2vw 0px;
                     .title {
                         display: block;
                         font-size: 2.5vw;
