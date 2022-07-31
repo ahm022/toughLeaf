@@ -758,7 +758,9 @@ body {
     position: relative; }
     .section-four .down-section .image-holder {
       height: 42vw;
-      background-color: var(--primary-blue-1); }
+      background-color: var(--primary-blue-1);
+      background: url("../img/section-four/leaf-mask.svg");
+      background-size: cover; }
       .section-four .down-section .image-holder img {
         width: 100%;
         height: 100%; }
