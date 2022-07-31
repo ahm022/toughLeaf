@@ -761,8 +761,6 @@ body {
       background-size: cover; }
       .section-four .down-section .image-holder .details {
         padding: 9.9vw 18.4vw;
-        position: absolute;
-        top: 0;
         width: 100%; }
         .section-four .down-section .image-holder .details .title {
           font-size: 2vw;

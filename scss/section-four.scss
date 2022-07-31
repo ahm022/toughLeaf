@@ -85,17 +85,10 @@
         position: relative;
         .image-holder {
             min-height: 42vw;
-            // background-color: var(--primary-blue-1);
             background: url(../img/section-four/leaf-mask.svg) var(--primary-blue-1);
             background-size: cover;
-            // img {
-            //     width: 100%;
-            //     height: 100%;
-            // }
             .details {
                 padding: 9.9vw 18.4vw;
-                position: absolute;
-                top: 0;
                 width: 100%;
                 .title {
                     font-size: 2vw;
