@@ -1,8 +1,6 @@
 .section-two {
   background-color: #f0f0f0;
-  padding: 0 6.2vw;
-  padding-top: 6.979vw;
-  padding-bottom: 5.208vw;
+  padding: 6.979vw 4.45vw 5.208vw 6.2vw ; 
   .card-title {
     display: flex;
     justify-content: space-between;
@@ -78,7 +76,7 @@
       .card-item-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         padding-left: 10px;
         gap: 0.521vw;
         padding: 1.042vw 0;
