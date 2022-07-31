@@ -847,7 +847,8 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 3.906vw !important; }
+    bottom: 3.906vw !important;
+    z-index: 10000; }
     .section-six .swiper-pagination-info .swiper-pagination-bullet {
       width: 0.833vw;
       height: 0.833vw; }

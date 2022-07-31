@@ -90,7 +90,6 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 var swiperOne = new Swiper(".swiperOne", {
-
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -100,6 +99,7 @@ var swiperOne = new Swiper(".swiperOne", {
 var infoSwiper = new Swiper(".infoSwiper", {
   pagination: {
     el: ".swiper-pagination-info",
+    clickable: true
   }
 });
 
