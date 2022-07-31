@@ -52,6 +52,11 @@ body {
   color: var(--primary-grey-2);
   cursor: pointer; }
 
+.ellipse-word {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
 .auth {
   min-height: 100vh;
   justify-content: center;
@@ -634,14 +639,11 @@ body {
         width: 100%;
         height: 100%; }
   .section-three .legacy-white-bg-holder {
-    width: 45vw; }
-    .section-three .legacy-white-bg-holder img {
-      width: 100%;
-      height: 100%; }
+    width: 45vw;
+    background: transparent url("../img/section-three/legacy-white-background.svg") 0% 0% no-repeat padding-box;
+    background-size: cover; }
   .section-three .legacy-details {
-    position: absolute;
-    top: 10vw;
-    left: 6vw; }
+    padding-left: 6.2vw; }
     .section-three .legacy-details .date {
       display: flex;
       align-items: center;
