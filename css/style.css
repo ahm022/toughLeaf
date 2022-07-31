@@ -68,7 +68,7 @@ body {
     background: var(--primary-white-1);
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 5px;
-    margin: 5.208vw auto; }
+    margin: 3.208vw auto; }
     .auth .auth-container .sign-in {
       display: flex; }
       .auth .auth-container .sign-in .left-section {
@@ -154,7 +154,7 @@ body {
       color: var(--primary-grey-12); }
     .input-container .input-item input {
       border: 1px solid #c2c4c5;
-      height: 3.125vw;
+      height: 2.125vw;
       border-radius: 4px;
       margin-top: 8px;
       padding: 0 20px;
@@ -227,7 +227,7 @@ body {
           height: 36px;
           border-radius: 50%;
           color: var(--primary-white-1); }
-    .sign-up .left-section .seperator {
+    .sign-up .left-section .separator {
       width: 26px;
       height: 4px;
       margin: auto;
@@ -268,7 +268,7 @@ body {
     .sign-up .right-section .sign-up-body {
       margin-top: 2.188vw; }
   .sign-up .sign-up-button {
-    margin-top: 5.208vw;
+    margin-top: 3.208vw;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
