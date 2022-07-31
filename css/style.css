@@ -693,7 +693,6 @@ body {
       height: 100%;
       width: 100%; }
     .section-four .top-section .state-holder {
-      min-height: 36.15vw;
       position: relative; }
       .section-four .top-section .state-holder #default-state-img-holder {
         display: block;
@@ -701,7 +700,7 @@ body {
         background: url("../img/section-four/mask-group-upper.png");
         background-size: cover; }
       .section-four .top-section .state-holder .states-wrapper {
-        height: 100%;
+        min-height: 36.15vw;
         width: 100%;
         background-color: var(--primary-black-3);
         opacity: 60%;
