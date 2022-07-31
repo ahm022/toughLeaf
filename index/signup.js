@@ -9,6 +9,7 @@ let businessType;
 let certificationType;
 let state;
 let city;
+let checkPassword = false
 let tabOneButton = document.getElementById("button-tab-one");
 let tabTwoButton = document.getElementById("button-tab-two");
 
@@ -23,8 +24,10 @@ const addError = (target,id) => {
 const addPassError = (id, passOne, passTwo) => {
     if(passOne !=  passTwo) {
         document.getElementById(id).style.display = 'block'
+        checkPassword = false
     }else {
         document.getElementById(id).style.display = 'none'
+        checkPassword = true
     }
 }
 const getInputValue = (id) => {
@@ -77,7 +80,7 @@ const getInputValue = (id) => {
       break;
   }
 
-  if (firstName && lastName && emailAddress && password) {
+  if (firstName && lastName && emailAddress && password && checkPassword) {
     tabOneButton.disabled = false;
   } else {
     tabOneButton.disabled = true;

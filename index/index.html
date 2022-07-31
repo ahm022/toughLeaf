@@ -655,7 +655,13 @@
         <div class="seperator"></div>
       </div>
       <div class="bottom-items">
-        <iframe width="420" height="315" src="https://player.vimeo.com/video/690791512/" frameborder="0" allowfullscreen></iframe>
+        <iframe
+          width="420"
+          height="315"
+          src="https://player.vimeo.com/video/690791512/"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
 
@@ -962,7 +968,7 @@
             <div class="stepper">
               <div id="stepper-one" class="stepper-item active">1</div>
               <div id="stepper-two" class="stepper-item">2</div>
-              <div class="stepper-item">3</div>
+              <div id="stepper-three" class="stepper-item">3</div>
               <div class="stepper-item">
                 <img src="/img/forms/eye.svg" />
               </div>
@@ -997,7 +1003,7 @@
             </div>
 
             <div class="sign-up-body">
-              <div class="input-container">
+              <div class="input-container signup-page">
                 <div class="input-item">
                   <label class="label">First Name *</label>
                   <input
@@ -1063,14 +1069,14 @@
                   </div>
                 </div>
               </div>
-              <div class="sign-up-button">
+              <div class="sign-up-button end">
                 <button
                   disabled
                   id="button-tab-one"
                   onclick="displayNexTab('tab-one', 'tab-two', 'stepper-two','stepper-one')"
                 >
                   NEXT STEP
-                  <img src="../img/forms/eye.svg" />
+                  <span> > </span>
                 </button>
               </div>
             </div>
@@ -1084,97 +1090,129 @@
                 <img src="/img/forms/close-icon.svg" />
               </div>
             </div>
-            <div class="input-container">
-              <div class="input-item">
-                <label class="label">Company Type</label>
-                <input
-                  required
-                  id="company-type"
-                  oninput="getInputValue('company-type')"
-                  type="text"
-                  placeholder="Enter your company type"
-                />
-                <div id="company-type-error" class="error">
-                  company type is required
+            <div class="sign-up-body">
+              <div class="input-container signup-page">
+                <div class="input-item">
+                  <label class="label">Company Type</label>
+                  <input
+                    required
+                    id="company-type"
+                    oninput="getInputValue('company-type')"
+                    type="text"
+                    placeholder="Enter your company type"
+                  />
+                  <div id="company-type-error" class="error">
+                    company type is required
+                  </div>
+                </div>
+                <div class="input-item">
+                  <label class="label">Company Name</label>
+                  <input
+                    id="company-name"
+                    oninput="getInputValue('company-name')"
+                    type="text"
+                    placeholder="Enter your company name"
+                  />
+                  <div id="company-name-error" class="error">
+                    company name is required
+                  </div>
+                </div>
+                <div class="input-item">
+                  <label class="label">Certification Type</label>
+                  <input
+                    id="certification-type"
+                    oninput="getInputValue('certification-type')"
+                    type="text"
+                    placeholder="Enter your certification type"
+                  />
+                  <div id="certification-type-error" class="error">
+                    certification type is required
+                  </div>
+                </div>
+                <div class="input-item">
+                  <label class="label">Business Type</label>
+                  <input
+                    id="business-type"
+                    oninput="getInputValue('business-type')"
+                    type="text"
+                    placeholder="Enter your Business type"
+                  />
+                  <div id="business-type-error" class="error">
+                    business type is required
+                  </div>
+                </div>
+                <div class="input-item">
+                  <label class="label">Website</label>
+                  <input type="text" placeholder="Enter your website" />
+                </div>
+                <div class="input-item">
+                  <label class="label">State</label>
+                  <input
+                    id="state"
+                    oninput="getInputValue('state')"
+                    type="tetx"
+                    placeholder="enter your state"
+                  />
+                  <div id="state-error" class="error">state is required</div>
+                </div>
+                <div class="input-item">
+                  <label class="label">city</label>
+                  <input
+                    id="city"
+                    oninput="getInputValue('city')"
+                    type="tetx"
+                    placeholder="enter your city"
+                  />
+                  <div id="city-error" class="error">city is required</div>
                 </div>
               </div>
-              <div class="input-item">
-                <label class="label">Company Name</label>
-                <input
-                  id="company-name"
-                  oninput="getInputValue('company-name')"
-                  type="text"
-                  placeholder="Enter your company name"
-                />
-                <div id="company-name-error" class="error">
-                  company name is required
-                </div>
-              </div>
-              <div class="input-item">
-                <label class="label">Certification Type</label>
-                <input
-                  id="certification-type"
-                  oninput="getInputValue('certification-type')"
-                  type="text"
-                  placeholder="Enter your certification type"
-                />
-                <div id="certification-type-error" class="error">
-                  certification type is required
-                </div>
-              </div>
-              <div class="input-item">
-                <label class="label">Business Type</label>
-                <input
-                  id="business-type"
-                  oninput="getInputValue('business-type')"
-                  type="text"
-                  placeholder="Enter your Business type"
-                />
-                <div id="business-type-error" class="error">
-                  business type is required
-                </div>
-              </div>
-              <div class="input-item">
-                <label class="label">Website</label>
-                <input type="text" placeholder="Enter your website" />
-              </div>
-              <div class="input-item">
-                <label class="label">State</label>
-                <input
-                  id="state"
-                  oninput="getInputValue('state')"
-                  type="tetx"
-                  placeholder="enter your state"
-                />
-                <div id="state-error" class="error">state is required</div>
-              </div>
-              <div class="input-item">
-                <label class="label">city</label>
-                <input
-                  id="city"
-                  oninput="getInputValue('city')"
-                  type="tetx"
-                  placeholder="enter your city"
-                />
-                <div id="city-error" class="error">city is required</div>
+              <div class="sign-up-button">
+                <button
+                  class="prev"
+                  onclick="displayNexTab('tab-two', 'tab-one', 'stepper-one','stepper-two')"
+                >
+                  <span> < </span>
+                  <span>Previews</span>
+                </button>
+                <button
+                  disabled
+                  id="button-tab-two"
+                  onclick="displayNexTab('tab-two', 'tab-three', 'stepper-three','stepper-two')"
+                >
+                  <span>NEXT STEP</span>
+                  <span>></span>
+                </button>
               </div>
             </div>
-            <div class="sign-up-button">
-              <button
-                class="prev"
-                onclick="displayNexTab('tab-two', 'tab-one', 'stepper-one','stepper-two')"
-              >
-                <span>Previews</span>
-                <img src="../img/forms/eye.svg" />
-              </button>
-              <button
-                disabled
-                id="button-tab-two"
-                onclick="displayNexTab('tab-one', 'tab-two', 'stepper-one','stepper-two')"
-              >
-                <span>NEXT STEP</span>
-                <img src="../img/forms/eye.svg" />
-              </button>
+          </div>
+
+          <!-- TAB THREE  -->
+          <div id="tab-three" class="right-section">
+            <div class="auth-header">
+              <div class="right-item">SECURITY CONTROL</div>
+              <div onclick="hideRegisterPage()" class="left-item">
+                <img src="/img/forms/close-icon.svg" />
+              </div>
+            </div>
+            <div class="sign-up-hint">Confirm that you are human*</div>
+            <div class="sign-up-body">
+              <div class="input-container signup-page"></div>
+              <div class="sign-up-button">
+                <button
+                  class="prev"
+                  onclick="displayNexTab('tab-three', 'tab-two', 'stepper-two','stepper-three')"
+                >
+                  <span> < </span>
+                  <span>Previews</span>
+                </button>
+                <button
+                  id="button-tab-two"
+             
+                >
+                  <span>Create</span>
+                  <span>></span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -1188,5 +1226,5 @@
   />
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="index.js"></script>
-  <script src="/index/signup.js"></script>
+  <script src="signup.js"></script>
 </html>

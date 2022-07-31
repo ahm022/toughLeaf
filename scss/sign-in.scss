@@ -64,8 +64,8 @@
                 color: var(--primary-grey-12);
               }
             }
-            .label{
-                color: var(--primary-blue-1);
+            .label {
+              color: var(--primary-blue-1);
             }
           }
           .sign-in-button {
@@ -86,7 +86,7 @@
             justify-content: center;
             margin-top: 3.646vw;
             .label {
-                color: var(--primary-grey-12);
+              color: var(--primary-grey-12);
             }
             .link {
               margin-left: 4px;
@@ -100,7 +100,7 @@
           font-size: 14px;
           text-align: center;
           color: var(--primary-grey-12);
-          .link{
+          .link {
             color: var(--primary-blue-1);
             cursor: pointer;
           }
@@ -108,15 +108,14 @@
       }
     }
   }
-  &.show{
+  &.show {
     display: block;
   }
 }
 
 // general css
 .input-container {
-    max-height: 700px;
-    overflow: scroll;
+  overflow: scroll;
   .input-item {
     display: flex;
     flex-direction: column;
@@ -135,12 +134,16 @@
         color: var(--primary-grey-11);
       }
     }
-    .error{
-        font-size: 11px;
-        color: red;
-        margin-top: 4px;
-        display: none;
+    .error {
+      font-size: 11px;
+      color: red;
+      margin-top: 4px;
+      display: none;
     }
+  }
+  &.signup-page {
+    max-height: 610px;
+    min-height: 610px;
   }
 }
 
@@ -180,23 +183,41 @@
       }
     }
   }
-  .auth-header{
-    .right-item{
+  .auth-header {
+    .right-item {
       font-size: 16px;
     }
   }
 }
 @media (max-width: 1100px) {
-  .auth-header{
-    .right-item{
+  .auth-header {
+    .right-item {
       font-size: 16px;
     }
   }
 }
-@media(max-width : 1100px) {
+@media (max-width: 1100px) {
   .sign-in {
-    .left-section{
+    .left-section {
       flex-shrink: unset !important;
+    }
+    .right-section {
+      .sign-in-body {
+        .sign-in-hint {
+          font-size: 13px;
+        }
+        .input-helper {
+          font-size: 13px;
+          .input-checkbox {
+            label {
+              font-size: 13px !important;
+            }
+          }
+        }
+      }
+      .sign-in-footer{
+        font-size: 13px;
+      }
     }
   }
 }
