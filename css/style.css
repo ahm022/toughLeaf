@@ -692,68 +692,67 @@ body {
     .section-four .top-section img {
       height: 100%;
       width: 100%; }
-    .section-four .top-section .state-holder {
-      min-height: 36.15vw;
-      position: relative; }
-      .section-four .top-section .state-holder #default-state-img-holder {
-        display: block;
+    .section-four .top-section .state-holder #default-state-img-holder {
+      display: block;
+      height: 100%;
+      background: url("../img/section-four/mask-group-upper.png");
+      background-size: cover;
+      min-height: 36.15vw; }
+    .section-four .top-section .state-holder .states-wrapper {
+      height: 100%;
+      width: 100%;
+      background-color: var(--primary-black-3);
+      opacity: 60%;
+      display: flex;
+      align-items: center;
+      min-height: 36.15vw; }
+      .section-four .top-section .state-holder .states-wrapper #hiring,
+      .section-four .top-section .state-holder .states-wrapper #xbe {
+        width: 50%;
         height: 100%;
-        background: url("../img/section-four/mask-group-upper.png");
-        background-size: cover; }
-      .section-four .top-section .state-holder .states-wrapper {
-        height: 100%;
-        width: 100%;
-        background-color: var(--primary-black-3);
-        opacity: 60%;
         display: flex;
-        align-items: center; }
-        .section-four .top-section .state-holder .states-wrapper #hiring,
-        .section-four .top-section .state-holder .states-wrapper #xbe {
-          width: 50%;
-          height: 100%;
+        align-items: center;
+        justify-content: center;
+        color: var(--primary-white-1);
+        padding: 2vw 0px; }
+        .section-four .top-section .state-holder .states-wrapper #hiring .title,
+        .section-four .top-section .state-holder .states-wrapper #xbe .title {
+          display: block;
+          font-size: 2.5vw; }
+        .section-four .top-section .state-holder .states-wrapper #hiring .details,
+        .section-four .top-section .state-holder .states-wrapper #xbe .details {
+          display: none; }
+        .section-four .top-section .state-holder .states-wrapper #hiring:hover .title,
+        .section-four .top-section .state-holder .states-wrapper #xbe:hover .title {
+          display: none; }
+        .section-four .top-section .state-holder .states-wrapper #hiring:hover .details,
+        .section-four .top-section .state-holder .states-wrapper #xbe:hover .details {
           display: flex;
+          flex-direction: column;
           align-items: center;
-          justify-content: center;
-          color: var(--primary-white-1);
-          padding: 2vw 0px; }
-          .section-four .top-section .state-holder .states-wrapper #hiring .title,
-          .section-four .top-section .state-holder .states-wrapper #xbe .title {
-            display: block;
-            font-size: 2.5vw; }
-          .section-four .top-section .state-holder .states-wrapper #hiring .details,
-          .section-four .top-section .state-holder .states-wrapper #xbe .details {
-            display: none; }
-          .section-four .top-section .state-holder .states-wrapper #hiring:hover .title,
-          .section-four .top-section .state-holder .states-wrapper #xbe:hover .title {
-            display: none; }
-          .section-four .top-section .state-holder .states-wrapper #hiring:hover .details,
-          .section-four .top-section .state-holder .states-wrapper #xbe:hover .details {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center; }
-        .section-four .top-section .state-holder .states-wrapper .details-header {
-          font-size: 1.75vw;
-          text-transform: uppercase;
-          margin-bottom: 3.5vw; }
-        .section-four .top-section .state-holder .states-wrapper .details-description {
-          font-size: 0.9vw;
-          margin-bottom: 5vw;
-          text-align: center;
-          line-height: 2vw; }
-        .section-four .top-section .state-holder .states-wrapper .action {
-          color: var(--primary-blue-1);
-          border: 0.01em solid var(--primary-blue-1);
-          width: 9.75vw;
-          font-size: 0.8vw;
-          text-align: center;
-          padding: 0.9vw 1.15vw;
-          border-radius: 50px;
-          cursor: pointer; }
-        .section-four .top-section .state-holder .states-wrapper .action:hover {
-          color: var(--primary-white-1);
-          background-color: var(--primary-blue-1);
-          border: none; }
+          justify-content: center; }
+      .section-four .top-section .state-holder .states-wrapper .details-header {
+        font-size: 1.75vw;
+        text-transform: uppercase;
+        margin-bottom: 3.5vw; }
+      .section-four .top-section .state-holder .states-wrapper .details-description {
+        font-size: 0.9vw;
+        margin-bottom: 5vw;
+        text-align: center;
+        line-height: 2vw; }
+      .section-four .top-section .state-holder .states-wrapper .action {
+        color: var(--primary-blue-1);
+        border: 0.01em solid var(--primary-blue-1);
+        width: 9.75vw;
+        font-size: 0.8vw;
+        text-align: center;
+        padding: 0.9vw 1.15vw;
+        border-radius: 50px;
+        cursor: pointer; }
+      .section-four .top-section .state-holder .states-wrapper .action:hover {
+        color: var(--primary-white-1);
+        background-color: var(--primary-blue-1);
+        border: none; }
   .section-four .down-section {
     position: relative; }
     .section-four .down-section .image-holder {
