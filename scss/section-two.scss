@@ -1,7 +1,8 @@
 .section-two {
   background-color: #f0f0f0;
-  padding: 6.2vw 4.45vw;
-
+  padding: 0 6.2vw;
+  padding-top: 6.979vw;
+  padding-bottom: 5.208vw;
   .card-title {
     display: flex;
     justify-content: space-between;
@@ -181,7 +182,7 @@
         }
       }
       span {
-        margin: 0 1.042vw 0 0 !important;
+        margin:  0 1.042vw 0 0 !important;
       }
     }
   }

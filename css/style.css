@@ -470,7 +470,9 @@ body {
 
 .section-two {
   background-color: #f0f0f0;
-  padding: 6.2vw 4.45vw; }
+  padding: 0 6.2vw;
+  padding-top: 6.979vw;
+  padding-bottom: 5.208vw; }
   .section-two .card-title {
     display: flex;
     justify-content: space-between;
