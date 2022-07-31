@@ -50,6 +50,7 @@
     justify-content: center;
     position: absolute;
     bottom: 3.906vw !important;
+    z-index: 10000;
     .swiper-pagination-bullet{
       width: 0.833vw;
       height: 0.833vw;
