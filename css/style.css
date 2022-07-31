@@ -621,7 +621,7 @@ body {
 
 .section-three {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   position: relative; }
   .section-three .image-wrapper {
@@ -634,14 +634,16 @@ body {
         width: 100%;
         height: 100%; }
   .section-three .legacy-white-bg-holder {
-    width: 45vw; }
+    width: 45vw;
+    position: relative; }
     .section-three .legacy-white-bg-holder img {
       width: 100%;
-      height: 100%; }
+      position: absolute;
+      left: 0;
+      top: 0; }
   .section-three .legacy-details {
-    position: absolute;
-    top: 10vw;
-    left: 6vw; }
+    padding-left: 6.2vw;
+    padding-top: 11.458vw; }
     .section-three .legacy-details .date {
       display: flex;
       align-items: center;
