@@ -1,6 +1,6 @@
 .section-three {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     position: relative;
     .image-wrapper {
@@ -19,16 +19,18 @@
 
     .legacy-white-bg-holder {
         width: 45vw;
+        position: relative;
         img {
             width: 100%;
-            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
         }
     }
 
     .legacy-details {
-        position: absolute;
-        top: 10vw;
-        left: 6vw;
+        padding-left: 6.2vw;
+        padding-top: 11.458vw;
         .date {
             display: flex;
             align-items: center;

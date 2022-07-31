@@ -84,6 +84,7 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   pagination: {
     el: ".swiper-pagination",
+    
   },
 });
 var swiperOne = new Swiper(".swiperOne", {
