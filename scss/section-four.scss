@@ -10,13 +10,12 @@
             width: 100%;
         }
         .state-holder {
-            min-height: 36.15vw;
-            position: relative;
             #default-state-img-holder {
                 display: block;
                 height: 100%;
                 background: url("../img/section-four/mask-group-upper.png");
                 background-size: cover;
+                min-height: 36.15vw;
             }
             .states-wrapper {
                 height: 100%;
@@ -25,6 +24,7 @@
                 opacity: 60%;
                 display: flex;
                 align-items: center;
+                min-height: 36.15vw;
                 #hiring,
                 #xbe {
                     width: 50%;
