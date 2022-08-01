@@ -162,34 +162,35 @@ body {
   .auth.show {
     display: block; }
 
-.input-container .input-item {
-  display: flex;
-  flex-direction: column;
-  min-height: 5.208vw; }
-  .input-container .input-item label {
-    color: var(--primary-grey-12);
-    font-size: 0.729vw; }
-  .input-container .input-item input {
-    border: 1px solid #c2c4c5;
-    height: 2.125vw;
-    border-radius: 4px;
-    margin-top: 0.417vw;
-    padding: 0 1.042vw;
-    min-height: 2.604vw;
-    font-size: 0.7vw; }
-    .input-container .input-item input::placeholder {
+.input-container {
+  padding-right: 10px; }
+  .input-container .input-item {
+    display: flex;
+    flex-direction: column;
+    min-height: 5.208vw; }
+    .input-container .input-item label {
+      color: var(--primary-grey-12);
+      font-size: 0.729vw; }
+    .input-container .input-item input {
+      border: 1px solid #c2c4c5;
+      height: 2.125vw;
+      border-radius: 4px;
+      margin-top: 0.417vw;
+      padding: 0 1.042vw;
+      min-height: 2.604vw;
+      font-size: 0.7vw; }
+      .input-container .input-item input::placeholder {
+        font-size: 11px;
+        color: var(--primary-grey-11); }
+    .input-container .input-item .error {
       font-size: 11px;
-      color: var(--primary-grey-11); }
-  .input-container .input-item .error {
-    font-size: 11px;
-    color: red;
-    margin-top: 4px;
-    display: none; }
-
-.input-container.signup-page {
-  max-height: 31.250vw;
-  min-height: 31.250vw;
-  overflow-y: auto; }
+      color: red;
+      margin-top: 4px;
+      display: none; }
+  .input-container.signup-page {
+    max-height: 31.250vw;
+    min-height: 31.250vw;
+    overflow-y: auto; }
 
 .auth-header {
   width: 100%;
@@ -349,14 +350,14 @@ body {
         cursor: pointer; }
   .sign-up .right-section {
     width: 100%;
-    padding: 2.083vw 3.125vw; }
+    padding: 1.5vw 2vw; }
     .sign-up .right-section .sign-up-body {
       margin-top: 2.188vw; }
     .sign-up .right-section .sign-up-hint {
       font-size: 14px;
       color: var(--primary-grey-12); }
   .sign-up .sign-up-button {
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -364,8 +365,8 @@ body {
     .sign-up .sign-up-button.end {
       justify-content: flex-end; }
     .sign-up .sign-up-button button {
-      min-height: 3.125vw;
-      min-width: 9.375vw;
+      min-height: 30px;
+      min-width: 110px;
       border: 0;
       border-radius: 36px;
       color: var(--primary-white-1);
@@ -373,7 +374,7 @@ body {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      padding: 0 1.250vw;
+      padding: 0 1.25vw;
       font-size: 0.833vw;
       cursor: pointer; }
       .sign-up .sign-up-button button.prev {
@@ -385,7 +386,8 @@ body {
           order: 1; }
       .sign-up .sign-up-button button:disabled {
         opacity: 0.5; }
-  .sign-up #tab-two, .sign-up #tab-three {
+  .sign-up #tab-two,
+  .sign-up #tab-three {
     display: none; }
 
 @media (max-width: 700px) {
@@ -425,9 +427,9 @@ body {
     .sign-up .left-section .desc {
       font-size: 13px; }
   .sign-up .sign-up-button button {
-    font-size: 13px !important;
+    font-size: 12px !important;
     min-width: 100px;
-    height: 36px; }
+    height: 30px; }
   .input-container .input-item .error {
     font-size: 9px !important; } }
 
@@ -504,8 +506,7 @@ body {
         font-size: 0.95vw;
         color: var(--primary-white-1);
         max-height: 10vw;
-        overflow-y: scroll;
-        height: 10vw; }
+        min-height: 10vw; }
       .section-one .image-holder .image-holder-container .details .button {
         margin: 3.35vw 0%;
         width: fit-content;
