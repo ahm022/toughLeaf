@@ -124,7 +124,6 @@
 
 // general css
 .input-container {
-  overflow: scroll;
   .input-item {
     display: flex;
     flex-direction: column;
@@ -156,6 +155,7 @@
   &.signup-page {
     max-height: 31.250vw;
     min-height: 31.250vw;
+    overflow-y: auto;
   }
 }
 

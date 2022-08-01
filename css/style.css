@@ -162,34 +162,34 @@ body {
   .auth.show {
     display: block; }
 
-.input-container {
-  overflow: scroll; }
-  .input-container .input-item {
-    display: flex;
-    flex-direction: column;
-    min-height: 5.208vw; }
-    .input-container .input-item label {
-      color: var(--primary-grey-12);
-      font-size: 0.729vw; }
-    .input-container .input-item input {
-      border: 1px solid #c2c4c5;
-      height: 2.125vw;
-      border-radius: 4px;
-      margin-top: 0.417vw;
-      padding: 0 1.042vw;
-      min-height: 2.604vw;
-      font-size: 0.7vw; }
-      .input-container .input-item input::placeholder {
-        font-size: 0.7vw;
-        color: var(--primary-grey-11); }
-    .input-container .input-item .error {
-      font-size: 11px;
-      color: red;
-      margin-top: 4px;
-      display: none; }
-  .input-container.signup-page {
-    max-height: 31.250vw;
-    min-height: 31.250vw; }
+.input-container .input-item {
+  display: flex;
+  flex-direction: column;
+  min-height: 5.208vw; }
+  .input-container .input-item label {
+    color: var(--primary-grey-12);
+    font-size: 0.729vw; }
+  .input-container .input-item input {
+    border: 1px solid #c2c4c5;
+    height: 2.125vw;
+    border-radius: 4px;
+    margin-top: 0.417vw;
+    padding: 0 1.042vw;
+    min-height: 2.604vw;
+    font-size: 0.7vw; }
+    .input-container .input-item input::placeholder {
+      font-size: 0.7vw;
+      color: var(--primary-grey-11); }
+  .input-container .input-item .error {
+    font-size: 11px;
+    color: red;
+    margin-top: 4px;
+    display: none; }
+
+.input-container.signup-page {
+  max-height: 31.250vw;
+  min-height: 31.250vw;
+  overflow-y: auto; }
 
 .auth-header {
   width: 100%;
