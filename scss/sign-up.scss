@@ -86,7 +86,7 @@
       }
     }
     .sign-up-button {
-      margin-top: 3.208vw;
+      margin-top: 20px;
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
@@ -167,13 +167,19 @@
       .left-section{
         flex-shrink: unset !important;
         .hint{
-          font-size: 13px;
+          font-size: 11px;
           .link{
             font-size: 11px;
           }
         }
         .separator{
           margin-top: 16px;
+        }
+        .title{
+          font-size: 13px;
+        }
+        .desc{
+          font-size: 13px;
         }
       }
       .sign-up-button{

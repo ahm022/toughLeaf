@@ -178,7 +178,7 @@ body {
     min-height: 2.604vw;
     font-size: 0.7vw; }
     .input-container .input-item input::placeholder {
-      font-size: 0.7vw;
+      font-size: 11px;
       color: var(--primary-grey-11); }
   .input-container .input-item .error {
     font-size: 11px;
@@ -356,7 +356,7 @@ body {
       font-size: 14px;
       color: var(--primary-grey-12); }
   .sign-up .sign-up-button {
-    margin-top: 3.208vw;
+    margin-top: 20px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -415,11 +415,15 @@ body {
   .sign-up .left-section {
     flex-shrink: unset !important; }
     .sign-up .left-section .hint {
-      font-size: 13px; }
+      font-size: 11px; }
       .sign-up .left-section .hint .link {
         font-size: 11px; }
     .sign-up .left-section .separator {
       margin-top: 16px; }
+    .sign-up .left-section .title {
+      font-size: 13px; }
+    .sign-up .left-section .desc {
+      font-size: 13px; }
   .sign-up .sign-up-button button {
     font-size: 13px !important;
     min-width: 100px;
